@@ -8,7 +8,7 @@
 
 \author{\\\\Amy Lochner 14038600\\ Avinash Singh 14043778 \\
 Christiaan Nel 14029368\\ Christiaan Saaiman 12059138 \\
-Gerard van Wyk 14101263\\ Mark Antel 12026973\\
+Gerard van Wyk 14101263\\ Marc Antel 12026973\\
 Themba Mbhele 14007950
 \\
 \\
@@ -18,8 +18,6 @@ Themba Mbhele 14007950
 \\ University Of Pretoria\\}
 
 \date{February 2016}
-\usepackage{fontspec}
-\setmainfont{Arial}
 
 \usepackage{graphicx}
 \usepackage{float}
@@ -31,7 +29,7 @@ Themba Mbhele 14007950
 \pagenumbering{gobble}
 \newpage
 % start page numbering
-\pagenumbering{arabic}
+
 
 % Generate Table of Contents
 
@@ -92,6 +90,45 @@ Themba Mbhele 14007950
 \subsection{Use Case/Services Contracts}
 
 \subsection{Required Functionality}
+\subsection{User-Research System interaction}
+\paragraph{\textbf{Description:} The type of user indicates what privileges that user has in the Research system}
+\paragraph{\textbf{Normal-user}}
+\begin{description}
+  \item[$\bullet$] A normal user login to the system if on the system
+    \item[$\bullet$] A normal user may add documents to the system
+    \item[$\bullet$] A normal user is as an author to a document that they add
+    \item[$\bullet$] A normal user may add authors to a document
+    \item[$\bullet$] A normal user may change authors to a document
+    \item[$\bullet$] A normal user may add a document to a conference
+    \item[$\bullet$] A normal user may only view their documents
+\end{description}
+\paragraph{\textbf{Head of Department}}
+\begin{description}
+  \item[$\bullet$] The head of department may log in to the system
+    \item[$\bullet$] The head of department may add users to the system
+    \item[$\bullet$] The head of department may remove users from the system
+    \item[$\bullet$] The head of department may edit user information on the system
+    \item[$\bullet$] The head of department may add documents to the system
+    \item[$\bullet$] The head of department may be an author to a document
+    \item[$\bullet$] The head of department may add authors to a document
+    \item[$\bullet$] The head of department may change authors to a document
+    \item[$\bullet$] The head of department may add/remove documents to conferences
+    \item[$\bullet$] The head of department may view all documents on the system
+\end{description}
+\paragraph{\textbf{Admin}}
+\begin{description}
+  \item[$\bullet$] Admin users may log in to the system
+    \item[$\bullet$] Admin users may add users to the system
+    \item[$\bullet$] Admin users may remove users from the system
+    \item[$\bullet$] Admin users may edit user information on the system
+    \item[$\bullet$] Admin users may add documents to the system
+    \item[$\bullet$] Admin users may not be an author to documents to the system
+    \item[$\bullet$] Admin users may add authors to a document
+    \item[$\bullet$] Admin users may change authors to a document
+    \item[$\bullet$] Admin users may add/remove documents to conferences
+    \item[$\bullet$] Admin users may view all documents on the system
+\end{description}
+
 \subsection{Process Specification}
 \subsection{Domain Model}
 
