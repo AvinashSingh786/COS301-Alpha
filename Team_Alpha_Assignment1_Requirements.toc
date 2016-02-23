@@ -1,6 +1,8 @@
 \contentsline {section}{\numberline {1}Introduction}{}
 \contentsline {section}{\numberline {2}Vision}{}
 \contentsline {section}{\numberline {3}Background}{}
+\contentsline {subsection}{\numberline {3.1}The client's problem}{}
+\contentsline {subsection}{\numberline {3.2}Future business opportunities}{}
 \contentsline {section}{\numberline {4}Architecture Requirements}{}
 \contentsline {subsection}{\numberline {4.1}Access Channel Requirements}{}
 \contentsline {subsection}{\numberline {4.2}Quality Requirements}{}
