@@ -110,7 +110,72 @@
 	\section{Functional Requirements and Application Design}
 	
 	\subsection{Use Case Prioritization}
-	
+	\subsubsection{User Login}
+    	Prioritisation: Critical
+    	Description:  A user is required to log into the system before the user can make use of any functionality\\
+    \textbf{Pre-conditions}
+    \begin{itemize}
+        \item A user must have a connection to the server
+        \item A user must be registered as a user by a person with HOD or Admin permission
+        \item The user must enter correct information in order for the authentication to be successful
+    \end{itemize}
+    
+    \textbf{Post-conditions}
+     \begin{itemize}
+        \item The user has access to the server on which all data is stored
+        \item The user is able to use all the functionality provided by the system 
+        \item The user may log out of the system when the user wishes.
+    \end{itemize}
+    
+    \subsubsection{User Registration}
+    Prioritisation: Critical
+    Description:  In order to be able to log into the system and make use of the functionality provided by the system the user must be registered on the system \\
+    
+    \textbf{Pre-conditions}
+     \begin{itemize}
+        \item The user must be part of the staff of the Computer Science Department of the University of Pretoria
+        \item The administrator or HOD of the system must register the user on the system
+        \item The user must decide on their login credentials
+   \end{itemize}
+    
+    \textbf{Post-conditions}
+    \begin{itemize}
+        \item The user is stored in the system database
+        \item The user can log into the system
+    \end{itemize}
+    
+    \subsubsection{Update User}
+    Prioritisation: Important
+    Description: Personal details as well as log in credentials can be changed if and when necessary\\
+    
+    \textbf{Pre-conditions}
+     \begin{itemize}
+        \item The administrator or HOD must be logged into the system
+        \item The user to be updated must already exist in the system
+        \item The administrator or HOD must have the new information
+   \end{itemize}
+    
+    \textbf{Post-conditions}
+    \begin{itemize}
+        \item The user's information is updated on the system's database
+    \end{itemize}
+    
+    \subsubsection{Remove User}
+    Prioritisation: Important
+    Description: Should a user no longer belong to the Department of Computer Science the person should be removed from the system\\
+    
+    \textbf{Pre-conditions}
+     \begin{itemize}
+        \item The person should be a user on the system
+        \item The person should no longer belong to the staff of the Department of Computer Science
+        \item The administrator or HOD must be the logged in
+   \end{itemize}
+    
+    \textbf{Post-conditions}
+    \begin{itemize}
+        \item The person is removed from the system's database
+        \item The person can no longer gain access to the system
+    \end{itemize}
 	\subsection{Use Case/Services Contracts}
 	
 	\subsection{Required Functionality}
