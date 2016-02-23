@@ -1,15 +1,20 @@
-\contentsline {section}{\numberline {1}Introduction}{2}
-\contentsline {section}{\numberline {2}Vision}{2}
-\contentsline {section}{\numberline {3}Background}{2}
-\contentsline {section}{\numberline {4}Architecture Requirements}{2}
-\contentsline {subsection}{\numberline {4.1}Access Channel Requirements}{2}
-\contentsline {subsection}{\numberline {4.2}Quality Requirements}{2}
-\contentsline {subsection}{\numberline {4.3}Integration Requirements}{2}
-\contentsline {subsection}{\numberline {4.4}Architecture Constraints}{2}
-\contentsline {section}{\numberline {5}Functional Requirements and Application Design}{3}
-\contentsline {subsection}{\numberline {5.1}Use Case Prioritization}{3}
-\contentsline {subsection}{\numberline {5.2}Use Case/Services Contracts}{3}
-\contentsline {subsection}{\numberline {5.3}Required Functionality}{3}
-\contentsline {subsection}{\numberline {5.4}Process Specification}{3}
-\contentsline {subsection}{\numberline {5.5}Domain Model}{3}
-\contentsline {section}{\numberline {6}Open Issues}{3}
+\contentsline {section}{\numberline {1}Introduction}{}
+\contentsline {section}{\numberline {2}Vision}{}
+\contentsline {section}{\numberline {3}Background}{}
+\contentsline {section}{\numberline {4}Architecture Requirements}{}
+\contentsline {subsection}{\numberline {4.1}Access Channel Requirements}{}
+\contentsline {subsection}{\numberline {4.2}Quality Requirements}{}
+\contentsline {subsection}{\numberline {4.3}Integration Requirements}{}
+\contentsline {subsection}{\numberline {4.4}Architecture Constraints}{}
+\contentsline {section}{\numberline {5}Functional Requirements and Application Design}{}
+\contentsline {subsection}{\numberline {5.1}Use Case Prioritization}{}
+\contentsline {subsection}{\numberline {5.2}Use Case/Services Contracts}{}
+\contentsline {subsection}{\numberline {5.3}Required Functionality}{}
+\contentsline {subsection}{\numberline {5.4}User-Research System interaction}{}
+\contentsline {paragraph}{\textbf {Description:} The type of user indicates what privileges that user has in the Research system}{}
+\contentsline {paragraph}{\textbf {Normal-user}}{}
+\contentsline {paragraph}{\textbf {Head of Department}}{}
+\contentsline {paragraph}{\textbf {Admin}}{}
+\contentsline {subsection}{\numberline {5.5}Process Specification}{}
+\contentsline {subsection}{\numberline {5.6}Domain Model}{}
+\contentsline {section}{\numberline {6}Open Issues}{}
