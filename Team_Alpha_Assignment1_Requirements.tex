@@ -291,7 +291,98 @@
         	\item A reminder via Mail or Calendar will be set with the selected publication and deadline
         \end{itemize}
     
-    
+	\subsubsection{Create Research Group}
+	\textbf{Description:} Allows the administrator or HOD to create a new Research Group\\
+	\textbf{Prioritisation:} Critical\\
+	
+	\texbf{Pre-conditions}
+	 \begin{itemize}
+		\item The user(must be the administrator or HOD) should be logged into the system
+		\item The Research Group you wish to create must not already be in the system
+	\end{itemize}
+	
+	\texbf{Post-conditions}
+	 \begin{itemize}
+		\item The Research Group will be created and stored in the database
+		\item Users will be able to join the Research Group
+		\item Research Leader will be able to see all Publications made by the Research Group's members
+	\end{itemize}
+	
+	\subsubsection{View Research Group}
+	\textbf{Description:} View the details of a Research Group
+	\textbf{Prioritisation:} Nice-To-Have
+	
+	\texbf{Pre-conditions}
+	 \begin{itemize}
+		\item The user(must be the administrator or HOD) should be logged into the system
+		\item The Research Group must already exist in the database
+    \end{itemize}
+	
+	\texbf{Post-conditions}
+	 \begin{itemize}
+		\item The user will be able to view the details of the Research Group
+	\end{itemize}
+	
+	\subsubsection{Update Research Group}
+	\texbf{Description:} Allows the administrator or HOD to update an existing Research Group\\
+	\texbf{Prioritisation:} Important\\
+	
+	\texbf{Pre-conditions}
+	 \begin{itemize}
+		\item The user(must be the administrator or HOD) should be logged into the system
+		\item The Research Group must already exist in the database
+	\end{itemize}
+	
+	\textbf{Post-conditions}
+	 \begin{itemize}
+		\item The user will be able to edit and save the new information entered
+	\end{itemize}
+	
+	\subsubsection{Remove Research Group}
+	\texbf{Description:} Allows the administrator or HOD to remove an existing Research Group\\
+	\texbf{Prioritisation:} Important\\
+	
+	\texbf{Pre-conditions}
+	 \begin{itemize}
+		\item The user(must be the administrator or HOD) should be logged into the system
+		\item The Research Group must already exist in the database
+		\item The Research Group must have no members in it and no Research Leader
+	\end{itemize}
+	
+	\textbf{Post-conditions}
+	 \begin{itemize}
+		\item The user will be able to remove the Research Group from the database
+	\end{itemize}
+	
+	\subsubsection{Create Author}
+	\texbf{Description:} Allows the user to create a new Author\\
+	\texbf{Prioritisation:} Critical\\
+	
+	\texbf{Pre-conditions}
+	 \begin{itemize}
+		\item The user should be logged into the system
+		\item The Author must not already exist in the database
+	\end{itemize}
+	
+	\textbf{Post-conditions}
+	 \begin{itemize}
+		\item The user will be able to create a new Author and save him/her in the database
+	\end{itemize}
+	
+	\subsubsection{Update Author}
+	\texbf{Description:} Allows the user to update an existing Author\\
+	\texbf{Prioritisation:} Important\\
+	
+	\texbf{Pre-conditions}
+	 \begin{itemize}
+		\item The user should be logged into the system
+		\item The Author must already exist in the database
+	\end{itemize}
+	
+	\textbf{Post-conditions}
+	 \begin{itemize}
+		\item The user will be able to edit and save the new information entered
+	\end{itemize}
     
 	\subsection{Use Case/Services Contracts}
 	
