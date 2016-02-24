@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.17)  23 FEB 2016 12:30
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.17)  24 FEB 2016 22:58
 entering extended mode
 **Team_Alpha_Assignment1_Requirements.tex
 (Team_Alpha_Assignment1_Requirements.tex
@@ -100,73 +100,186 @@ Requested font "cmbx12" at 14.4pt
  (Team_Alpha_Assignment1_Requirements.toc
 Requested font "cmbx10" at 10.0pt
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 5.
+(Font)              <7> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 5.
+(Font)              <5> on input line 4.
 )
 \tf@toc=\write3
  [2]
 Requested font "cmbx12" at 12.0pt
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--59
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--59
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--59
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--64
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 69.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 66.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
+Underfull \hbox (badness 10000) in paragraph at lines 104--107
 
  []
 
-[4] [5]
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--107
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--209
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 224--227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--227
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 243--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--263
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--281
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--297
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 312--314
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--344
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 358--360
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--375
+
+ []
+
+[11] [12]
 File: Overview.jpg Graphic file (type QTm)
  <use  "Overview.jpg" >
 File: AccessNormaluser.jpg Graphic file (type QTm)
- <use  "AccessNormaluser.jpg" > [6]
+ <use  "AccessNormaluser.jpg" >
 File: AccessHODAdmin.jpg Graphic file (type QTm)
 
-<use  "AccessHODAdmin.jpg" > [7] [8] (Team_Alpha_Assignment1_Requirements.aux)
+<use  "AccessHODAdmin.jpg" > [13]
+File: AddUser.jpg Graphic file (type QTm)
+ <use  "AddUser.jpg" >
+File: removeUser.jpg Graphic file (type QTm)
+
+<use  "removeUser.jpg" >
+File: AddPublication.jpg Graphic file (type QTm)
+ <use  "AddPublication.jpg" > [14] [15] [16]
+(Team_Alpha_Assignment1_Requirements.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 681 strings out of 428790
- 7989 string characters out of 3164815
- 62927 words of memory out of 3000000
- 4029 multiletter control sequences out of 15000+200000
+ 687 strings out of 428790
+ 8075 string characters out of 3164815
+ 63927 words of memory out of 3000000
+ 4032 multiletter control sequences out of 15000+200000
  8541 words of font info for 30 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  25i,6n,19p,656b,234s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on Team_Alpha_Assignment1_Requirements.pdf (8 pages).
+Output written on Team_Alpha_Assignment1_Requirements.pdf (16 pages).
