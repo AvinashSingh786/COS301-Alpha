@@ -25,14 +25,10 @@
 \begin{document}
 	
 	\maketitle
-	% No page number to cover pag
+
 	\pagenumbering{gobble}
 	\newpage
-	% start page numbering
-	
-	
-	% Generate Table of Contents
-	
+
 	\tableofcontents
 	\newpage
 	
@@ -65,6 +61,7 @@
 	It is possible that there can be many concurrent users using the system so it is optimal that there be such interfaces such as a web application or website, as well as a mobile platform applications for the various different mobile devices.
 	\\
 	\subsection{Quality Requirements}
+	Specify and quantify each of the quality requirements which are relevant to the system
 	\begin{itemize}
 		\item Performance - How well the system can cope with extreme load.
 		\item Security - Can the system leak information, data integrity, session hijack.
@@ -82,6 +79,7 @@
 	\end{itemize}
 	
 	\subsection{Integration Requirements}
+	This section specifies any integration requirements for any external systems. This may include
 	\begin{itemize}
 		\item The different Web protocols used 
 		\item API - UML Interfaces
@@ -92,7 +90,7 @@
 	\end{itemize}
 	
 	\subsection{Architecture Constraints}
-	
+	This specifies any constraints the client may specify on the system architecture include
 	\begin{itemize}
 		\item HTML (Hypertext Markup Language)
 		\item AJAX (Asynchronous JavaScript and XML)
@@ -104,16 +102,20 @@
 		\item IOS (Mobile Devices)
 		\item Apache (Web Server)
 		\item Linux/Windows (Operating System)
-		
+		\\
+		\\
 	\end{itemize}
-	
+	\pagebreak
 	\section{Functional Requirements and Application Design}
-	
+	This section discusses the application functionality required by users (and other stakeholders).
 	\subsection{Use Case Prioritization}
 	\subsubsection{User Login}
-    	Prioritisation: Critical
-    	Description:  A user is required to log into the system before the user can make use of any functionality\\
-    \textbf{Pre-conditions}
+	\textbf{Description:}  A user is required to log into the system before the user can make use of any functionality
+	\\
+    \textbf{Prioritisation:} Critical\\
+    
+    
+      \textbf{Pre-conditions}
     \begin{itemize}
         \item A user must have a connection to the server
         \item A user must be registered as a user by a person with HOD or Admin permission
@@ -122,15 +124,16 @@
     
     \textbf{Post-conditions}
      \begin{itemize}
-        \item The user has access to the server on which all data is stored
-        \item The user is able to use all the functionality provided by the system 
+        \item The user has specific access to the server on which all data is stored, i.e add/edit authors and search for authors
+        \item The user is able to use all the user functionality provided by the system 
         \item The user may log out of the system when the user wishes.
     \end{itemize}
     
     \subsubsection{User Registration}
-    Prioritisation: Critical
-    Description:  In order to be able to log into the system and make use of the functionality provided by the system the user must be registered on the system \\
     
+    \textbf{Description:}  In order to be able to log into the system and make use of the functionality provided by the system the user must be registered on the system \\
+    \textbf{Prioritisation:} Critical\\
+   
     \textbf{Pre-conditions}
      \begin{itemize}
         \item The user must be part of the staff of the Computer Science Department of the University of Pretoria
@@ -143,11 +146,12 @@
         \item The user is stored in the system database
         \item The user can log into the system
     \end{itemize}
-    
+    \pagebreak
     \subsubsection{Update User}
-    Prioritisation: Important
-    Description: Personal details as well as log in credentials can be changed if and when necessary\\
-    
+   
+    \textbf{Description:} Personal details as well as log in credentials can be changed if and when necessary\\
+     \textbf{Prioritisation:} Important\\
+     
     \textbf{Pre-conditions}
      \begin{itemize}
         \item The administrator or HOD must be logged into the system
@@ -161,8 +165,9 @@
     \end{itemize}
     
     \subsubsection{Remove User}
-    Prioritisation: Important
-    Description: Should a user no longer belong to the Department of Computer Science the person should be removed from the system\\
+    
+    \textbf{Description:} Should a user no longer belong to the Department of Computer Science the person should be removed from the system\\
+    \textbf{Prioritisation:} Important\\
     
     \textbf{Pre-conditions}
      \begin{itemize}
@@ -175,11 +180,14 @@
     \begin{itemize}
         \item The person is removed from the system's database
         \item The person can no longer gain access to the system
+        \item The person history still remains in the log file
     \end{itemize}
 
     \subsubsection{Create Publication}
-    Prioritisation: Critical
-    Description: Adding a paper to the system\\
+    
+    \textbf{Description:} Adding a paper to the system\\
+    \textbf{Prioritisation:} Critical\\
+    
     
     \textbf{Pre-conditions}
      \begin{itemize}
@@ -194,8 +202,10 @@
     \end{itemize}
 
     \subsubsection{Update Publication}
-    Prioritisation: Critical
-    Description: Allows a user/administrator/HOD to change a publication's meta-data\\
+    
+    \textbf{Description:} Allows a user/administrator/HOD to change a publication's meta-data\\
+    \textbf{Prioritisation:} Critical\\
+    \\
     
     \textbf{Pre-conditions}
      \begin{itemize}
@@ -210,13 +220,15 @@
     \end{itemize}
     
     \subsubsection{View Publication}
-    Prioritisation: Important
-    Description: Allows a user/administrator/HOD to view the meta-data of a paper that lies within their permissions\\
+    
+    \textbf{Description:} Allows a user/administrator/HOD to view the meta-data of a paper that lies within their permissions\\
+    \textbf{Prioritisation:} Important\\
+    \\
     
     \textbf{Pre-conditions}
      \begin{itemize}
         \item The user(may be the administrator or HOD) should be logged into the system
-        \item The user -if not the administrator, HOD or research leader- must be a contributor to the paper
+        \item The user - if not the administrator, HOD or research leader - must be a contributor to the paper
         \item The paper must already be in the system
    \end{itemize}
     
@@ -224,15 +236,19 @@
     \begin{itemize}
         \item The paper's meta-data is displayed to the user
     \end{itemize}
+\pagebreak
 
     \subsubsection{Add Publication Type}
-    Prioritisation: Important
-    Description: Allows the administrator or HOD to add a publication type \\
-    
+
+    \textbf{Description:} Allows the administrator or HOD to add a publication type \\
+        \textbf{Prioritisation:} Important\\
+        \\
+        
+        
     \textbf{Pre-conditions}
      \begin{itemize}
         \item The user(must be the administrator or HOD) should be logged into the system
-        \item The publication type the wish to add must not already be in the system
+        \item The publication type to add must not already be in the system
    \end{itemize}
     
     \textbf{Post-conditions}
@@ -241,13 +257,15 @@
     \end{itemize}
     
     \subsubsection{Update Publication Type}
-    Prioritisation: Important
-    Description: Allows the administrator or HOD to update a publication type's details\\
+    
+    \textbf{Description:} Allows the administrator or HOD to update a publication type's details\\
+    \textbf{Prioritisation:} Important\\
+    
     
     \textbf{Pre-conditions}
      \begin{itemize}
         \item The user(must be the administrator or HOD) should be logged into the system
-        \item The user -if not the administrator, HOD or research leader- must be a contributor to the paper
+        \item The user - if not the administrator, HOD or research leader - must be a contributor to the paper
         \item The publication type to be updated must already be in the system
    \end{itemize}
     
@@ -256,10 +274,29 @@
         \item The selected publication type will be updated with the new information
     \end{itemize}
     
+    \subsubsection{Add Reminder}
+        \textbf{Description:} Allows the user to create a reminder for the deadline of the publication\\
+        \textbf{Prioritisation:} Nice-To-Have
+        \\
+        
+        \textbf{Pre-conditions}
+        \begin{itemize}
+        	\item The user(can be the HOD) should be logged into the system
+        	\item The user must be a contributor to the paper
+        	\item The publication must already be in the system
+        \end{itemize}
+        
+        \textbf{Post-conditions}
+        \begin{itemize}
+        	\item A reminder via Mail or Calendar will be set with the selected publication and deadline
+        \end{itemize}
+    
+    
+    
 	\subsection{Use Case/Services Contracts}
 	
 	\subsection{Required Functionality}
-	\subsection{User-Research System interaction}
+	\subsubsection{User-Research System interaction}
 	\paragraph{\textbf{Description:} The type of user indicates what privileges that user has in the Research system}
 	\paragraph{\textbf{Normal-user}}
 	\begin{description}
@@ -330,6 +367,23 @@
 	
 	
 	\section{Open Issues}
-	
-	
+	This section deals with issues that still need to be clarified, specified, assumed or that have been discovered to include inconsistencies in the requirements, comprising of the following issues:
+	\begin{description}
+		\item[$\bullet$] Is there a database with all the user information?.
+	\end{description}
+	\begin{description}
+		\item[$\bullet$] Is the HOD supposed to be in Admin or on its own?
+	\end{description}
+	\begin{description}
+	\item[$\bullet$] To where does the publication go to be reviewed?
+	\end{description}
+	\begin{description}
+	\item[$\bullet$] The reminder system must it be via Mail or Calendar notification?
+	\end{description}
+	\begin{description}
+	\item[$\bullet$] Assumed that the Venue will have a deadline attached.
+	\end{description}
+	\begin{description}
+	\item[$\bullet$] 
+	\end{description}	
 \end{document}
