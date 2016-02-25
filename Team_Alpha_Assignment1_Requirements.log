@@ -1,60 +1,89 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.17)  24 FEB 2016 22:58
-entering extended mode
+This is LuaTeX, Version beta-0.76.0-2013121407 (rev 4627)  (format=lualatex 2016.2.20)  25 FEB 2016 18:28
+ restricted \write18 enabled.
 **Team_Alpha_Assignment1_Requirements.tex
-(Team_Alpha_Assignment1_Requirements.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 68 languages loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(./Team_Alpha_Assignment1_Requirements.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: xetex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files\MiKTeX 2.9\tex\xelatex\xetex-def\xetex.def"
-File: xetex.def 2014/07/25 v4.03 LaTeX color/graphics driver for XeTeX (RRM/JK)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/luatex-loader.sty
+Package: luatex-loader 2010/03/09 v0.4 Lua module loader (HO)
+
+(/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua))
+\pdftexcmds@toks=\toks15
+)
+\Gread@gobject=\count87
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count88
-\float@exts=\toks15
+\float@exts=\toks16
 \float@box=\box26
-\@float@everytoks=\toks16
+\@float@everytoks=\toks17
 \@floatcapt=\box27
 )
-(Team_Alpha_Assignment1_Requirements.aux
+(./Team_Alpha_Assignment1_Requirements.aux
 
 LaTeX Warning: Label `overflow' multiply defined.
 
@@ -74,31 +103,57 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
-Requested font "cmr17" at 17.28pt
-Requested font "cmr17" at 20.74pt
-Requested font "cmr12" at 12.0pt
-Requested font "cmr8" at 8.0pt
-Requested font "cmr6" at 6.0pt
-Requested font "cmmi12" at 12.0pt
-Requested font "cmmi8" at 8.0pt
-Requested font "cmmi6" at 6.0pt
-Requested font "cmsy10" at 12.0pt
-Requested font "cmsy8" at 8.0pt
-Requested font "cmsy6" at 6.0pt
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count89
+\scratchdimen=\dimen105
+\scratchbox=\box28
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen106
+\MPnumerator=\count93
+\makeMPintoPDFobject=\count94
+\everyMPtoPDFconversion=\toks19
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+))
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 27.
-Requested font "cmti12" at 12.0pt
- [1
 
-]
-Requested font "cmr12" at 14.4pt
-Requested font "cmbx12" at 14.4pt
- (Team_Alpha_Assignment1_Requirements.toc
-Requested font "cmbx10" at 10.0pt
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+(./Team_Alpha_Assignment1_Requirements.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -106,8 +161,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 )
 \tf@toc=\write3
  [2]
-Requested font "cmbx12" at 12.0pt
-
 Underfull \hbox (badness 10000) in paragraph at lines 51--55
 
  []
@@ -133,8 +186,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--63
  []
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 66.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
@@ -253,33 +306,100 @@ Underfull \hbox (badness 10000) in paragraph at lines 373--375
 
  []
 
-[11] [12]
-File: Overview.jpg Graphic file (type QTm)
- <use  "Overview.jpg" >
-File: AccessNormaluser.jpg Graphic file (type QTm)
- <use  "AccessNormaluser.jpg" >
-File: AccessHODAdmin.jpg Graphic file (type QTm)
+[11] [12] <Overview.jpg, id=47, 1000.73875pt x 577.15625pt>
+File: Overview.jpg Graphic file (type jpg)
+ <use Overview.jpg>
+Package pdftex.def Info: Overview.jpg used on input line 430.
+(pdftex.def)             Requested size: 345.0pt x 198.9694pt.
 
-<use  "AccessHODAdmin.jpg" > [13]
-File: AddUser.jpg Graphic file (type QTm)
- <use  "AddUser.jpg" >
-File: removeUser.jpg Graphic file (type QTm)
+<AccessNormaluser.jpg, id=48, 897.3525pt x 558.085pt>
+File: AccessNormaluser.jpg Graphic file (type jpg)
 
-<use  "removeUser.jpg" >
-File: AddPublication.jpg Graphic file (type QTm)
- <use  "AddPublication.jpg" > [14] [15] [16]
-(Team_Alpha_Assignment1_Requirements.aux)
+<use AccessNormaluser.jpg>
+Package pdftex.def Info: AccessNormaluser.jpg used on input line 434.
+(pdftex.def)             Requested size: 345.0pt x 214.56108pt.
+
+<AccessHODAdmin.jpg, id=49, 1044.90375pt x 572.1375pt>
+File: AccessHODAdmin.jpg Graphic file (type jpg)
+
+<use AccessHODAdmin.jpg>
+Package pdftex.def Info: AccessHODAdmin.jpg used on input line 438.
+(pdftex.def)             Requested size: 345.0pt x 188.90198pt.
+ [13 <./Overview.jpg> <./AccessNormaluser.jpg>]
+<AddUser.jpg, id=53, 887.315pt x 543.02875pt>
+File: AddUser.jpg Graphic file (type jpg)
+ <use AddUser.jpg>
+Package pdftex.def Info: AddUser.jpg used on input line 445.
+(pdftex.def)             Requested size: 345.0pt x 211.13405pt.
+
+<removeUser.jpg, id=54, 887.315pt x 741.77126pt>
+File: removeUser.jpg Graphic file (type jpg)
+ <use removeUser.jpg>
+Package pdftex.def Info: removeUser.jpg used on input line 450.
+(pdftex.def)             Requested size: 345.0pt x 288.40678pt.
+
+<UpdateUser.jpg, id=55, 887.315pt x 671.50874pt>
+File: UpdateUser.jpg Graphic file (type jpg)
+ <use UpdateUser.jpg>
+Package pdftex.def Info: UpdateUser.jpg used on input line 455.
+(pdftex.def)             Requested size: 345.0pt x 261.08813pt.
+ [14 <./AccessHODAdmin.jpg> <./AddUser.jpg>]
+<AddPublication.jpg, id=59, 887.315pt x 601.24625pt>
+File: AddPublication.jpg Graphic file (type jpg)
+ <use AddPublication.jpg>
+Package pdftex.def Info: AddPublication.jpg used on input line 460.
+(pdftex.def)             Requested size: 345.0pt x 233.76949pt.
+
+[15 <./removeUser.jpg>]
+<UpdatePublication.jpg, id=63, 887.315pt x 914.41624pt>
+File: UpdatePublication.jpg Graphic file (type jpg)
+
+<use UpdatePublication.jpg>
+Package pdftex.def Info: UpdatePublication.jpg used on input line 465.
+(pdftex.def)             Requested size: 345.0pt x 355.53258pt.
+
+<ViewPublication.jpg, id=64, 887.315pt x 1029.8475pt>
+File: ViewPublication.jpg Graphic file (type jpg)
+
+<use ViewPublication.jpg>
+Package pdftex.def Info: ViewPublication.jpg used on input line 470.
+(pdftex.def)             Requested size: 345.0pt x 400.41321pt.
+ [16 <./UpdateUser.jpg> <./AddPublication.jpg>]
+[17 <./UpdatePublication.jpg>]
+<DomainModel.jpg, id=71, 961.5925pt x 547.04375pt>
+File: DomainModel.jpg Graphic file (type jpg)
+ <use DomainModel.jpg>
+Package pdftex.def Info: DomainModel.jpg used on input line 475.
+(pdftex.def)             Requested size: 345.0pt x 196.26782pt.
+
+[18 <./ViewPublication.jpg>] [19 <./DomainModel.jpg>]
+(./Team_Alpha_Assignment1_Requirements.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
- ) 
-Here is how much of TeX's memory you used:
- 687 strings out of 428790
- 8075 string characters out of 3164815
- 63927 words of memory out of 3000000
- 4032 multiletter control sequences out of 15000+200000
- 8541 words of font info for 30 fonts, out of 3000000 for 9000
- 1096 hyphenation exceptions out of 8191
- 25i,6n,19p,656b,234s stack positions out of 5000i,500n,10000p,200000b,50000s
+ )
 
-Output written on Team_Alpha_Assignment1_Requirements.pdf (16 pages).
+Here is how much of LuaTeX's memory you used:
+ 1798 strings out of 493803
+ 100000,552014 words of node,token memory allocated
+ 283 words of node memory still in use:
+   2 hlist, 1 vlist, 1 rule, 2 glue, 41 glue_spec, 1 write nodes
+   avail lists: 1:1,2:18,3:153,4:811,5:180,6:2257,7:48,9:225,10:220
+ 5471 multiletter control sequences out of 65536+600000
+ 46 fonts using 1296867 bytes
+ 37i,6n,23p,655b,238s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmti12.pfb>
+Output written on Team_Alpha_Assignment1_Requirements.pdf (19 pages, 1260145 byt
+es).
+
+PDF statistics: 102 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
