@@ -35,21 +35,21 @@
 	
 	\section{Introduction}
 	
-	This document defines the Software Requirements Specification and Technology Neutral Process Design for the COS 301 group. The Computer Science Department has expressed a need for the creation of a system, which can allow researchers to keep track of publications which they are currently working on, or have already published.
+	This document defines the Software Requirements Specification and Technology Neutral Process Design for COS 301 Team Alpha. The Computer Science Department has expressed a need for the creation of a system, which can allow researchers to keep track of publications which they are currently working on, or have already published.
 	\\
-	The aim of this project is to follow a structured software development process in order to produce a product which provides the client with all the functionality requested in an elegantly coded product. A collaborative and co-operative approach is required between all stakeholders who are involved in this project. 
+	The aim of this project is to follow a structured software development process in order to produce a product which provides the client with all the required functionality in an elegantly built product. A collaborative and co-operative approach is required between all stakeholders who are involved in this project. 
 	\\
 	The information, specifications, and diagrams within this document are presented in order to provide testable requirements which correlate to the client's needs.
 	
 	\section{Vision}
-	The client for this project, Ms. Vreda Pieterse, who belongs to the Department of Computer Science, at the University of Pretoria, has solicited us to develop a system. The purpose of this system is to record and oversee all publications of staff members or research groups, within the Department of Computer Science. The system will assist the Head of Department to track and advise staff members' progress on any papers which are in the process of being written; as well as determining whether or not a staff member is under performing.
+	The client for this project, Ms. Vreda Pieterse, is a member of the Department of Computer Science at the University of Pretoria, has solicited us to develop a system. The purpose of this system is to record and oversee all publications of staff members or research groups, within the Department of Computer Science. The system will assist the Head of Department to track and advise staff members' progress on any papers which are in the process of being written; as well as determining whether or not a staff member is under performing.
 	
 	\section{Background}
 	\subsection{The client's problem}
 	The client has solicited us to develop a system that has specific usability goals, as well as certain user-experience goals. Currently, the Department of Computer Science does not have a system with which to monitor the progress of staff member's publications, nor to keep track of how many publications an author is working on. Furthermore, it is necessary to determine which publications will be presented at different conferences, as well as the reporting capabilities, and the ability to remind users of deadlines. The system should allow for all these requirements in a secure, flexible and intuitive manner.
 	
 	\subsection{Future business opportunities}
-	A desire for this project is to encourage authors to collaborate with other authors on similar topics and to expand the users base knowledge of ongoing research projects.
+	A additional for this system is to encourage authors to collaborate with other authors on similar topics and to expand the users base knowledge of ongoing research projects.
 	\\
 	\\
 	\\
@@ -65,28 +65,28 @@
 	Specify and quantify each of the quality requirements which are relevant to the system
 	\begin{itemize}
 		\item Performance - How well the system can cope with extreme load.
-		\item Security - Can the system leak information, data integrity, session hijack.
+		\item Security - Minimising the possibility of leaking information, maintaining data integrity, and avoiding session hijack.
 		\item Maintainability - Can the system be managed without downtime.
-		\item Scalability - Can the system be used for large amount of users plus can it provide the services needed.
-		\item Efficiency - Can the system be optimized to produce faster and better results
+		\item Scalability - Can the system be used for large amount of users and still provide the services needed.
+		\item Efficiency - Can the system be optimized to produce faster and better results.
 		\item Flexibility - Can the system be easily changed or modified.
 		\item Reliability - Is the system able to cope with the load and provide constant access and is always active.
-		\item Integrability - Can it integrate with Google to send reminders.
-		\item User Friendly - Does a user understand how to use the system, is it easily usable.
+		\item Integrability - Can it integrate with Google Calendar to send reminders.
+		\item User Friendly - Does a user easily understand how to use the system.
 		\item Concurrency - Can multiple users perform actions at the same time.
 		\item Low Cost, Reduced data usage - Is it suitable for users with low budget and capped Internet.
-		\item Updatability - Can the system have version updates to introduce new features or functionality.
+		\item Updatability - Can the system have version updates to introduce new features or functionality whilst maintaining old data.
 		\\
 	\end{itemize}
 	
 	\subsection{Integration Requirements}
 	This section specifies any integration requirements for any external systems. This may include
 	\begin{itemize}
-		\item The different Web protocols used 
-		\item API - UML Interfaces
-		\item Google Calender and Email integration
-		\item Mobile Scalability and functionality Integration
-		\item Venue and Publication integration
+		\item The different Web protocols used .
+		\item API - UML Interfaces.
+		\item Google Calender and Email integration.
+		\item Mobile Scalability and functionality Integration.
+		\item Venue and Publication integration.
 		\\
 	\end{itemize}
 	
@@ -111,77 +111,77 @@
 	This section discusses the application functionality required by users (and other stakeholders).
 	\subsection{Use Case Prioritization}
 	\subsubsection{User Login}
-	\textbf{Description:}  A user is required to log into the system before the user can make use of any functionality
+	\textbf{Description:}  A user is required to log into the system before the user can make use of any functionality.
 	\\
     \textbf{Prioritisation:} Critical\\
     
     
       \textbf{Pre-conditions}
     \begin{itemize}
-        \item A user must have a connection to the server
-        \item A user must be registered as a user by a person with HOD or Admin permission
-        \item The user must enter correct information in order for the authentication to be successful
+        \item A user must have a connection to the server.
+        \item A user must be registered as a user by a person with HOD or Admin permission.
+        \item The user must enter the correct information in order for the authentication to be successful.
     \end{itemize}
     
     \textbf{Post-conditions}
      \begin{itemize}
         \item The user has specific access to the server on which all data is stored, i.e add/edit authors and search for authors
         \item The user is able to use all the user functionality provided by the system 
-        \item The user may log out of the system when the user wishes.
+        \item The user may log out of the system when they wish to.
     \end{itemize}
     
     \subsubsection{User Registration}
     
-    \textbf{Description:}  In order to be able to log into the system and make use of the functionality provided by the system the user must be registered on the system \\
+    \textbf{Description:}  In order to be able to log into the system and make use of the functionality provided by the system the user must be registered on the system. \\
     \textbf{Prioritisation:} Critical\\
    
     \textbf{Pre-conditions}
      \begin{itemize}
-        \item The user must be part of the staff of the Computer Science Department of the University of Pretoria
-        \item The administrator or HOD of the system must register the user on the system
-        \item The user must decide on their login credentials
+        \item The user must be part of the staff of the Computer Science Department of the University of Pretoria.
+        \item The administrator or HOD of the system must have registered the user on the system.
+        \item The user must decide on their login credentials.
    \end{itemize}
     
     \textbf{Post-conditions}
     \begin{itemize}
-        \item The user is stored in the system database
-        \item The user can log into the system
+        \item The user's login information is securely stored in the system database.
+        \item The user can log into the system.
     \end{itemize}
     \pagebreak
     \subsubsection{Update User}
    
-    \textbf{Description:} Personal details as well as log in credentials can be changed if and when necessary\\
+    \textbf{Description:} Personal details as well as log in credentials can be changed if and when necessary.\\
      \textbf{Prioritisation:} Important\\
      
     \textbf{Pre-conditions}
      \begin{itemize}
-        \item The administrator or HOD must be logged into the system
-        \item The user to be updated must already exist in the system
-        \item The administrator or HOD must have the new information
+        \item The administrator or HOD must be logged into the system.
+        \item The user to be updated must already exist in the system.
+        \item The administrator or HOD must have the new information.
    \end{itemize}
     
     \textbf{Post-conditions}
     \begin{itemize}
-        \item The user's information is updated on the system's database
+        \item The user's information is updated on the system's database.
     \end{itemize}
     
     \subsubsection{Remove User}
     
-    \textbf{Description:} Should a user no longer belong to the Department of Computer Science the person should be removed from the system\\
+    \textbf{Description:} Should a user no longer belong to the Department of Computer Science the person should be removed from the system.\\
     \textbf{Prioritisation:} Important\\
     
     \textbf{Pre-conditions}
      \begin{itemize}
-        \item The person should be a user on the system
-        \item The person should no longer belong to the staff of the Department of Computer Science
-        \item The administrator or HOD must be the logged in
+        \item The person should be a user on the system.
+        \item The person should no longer belong to the staff of the Department of Computer Science.
+        \item The administrator or HOD must be the logged in.
    \end{itemize}
     
     \textbf{Post-conditions}
     \begin{itemize}
-        \item The person is removed from the system's database
-        \item The person can no longer gain access to the system
-        \item The person history still remains in the log file
+        \item The person is removed from the system's database.
+        \item The person can no longer gain access to the system.
+        \item The person history still remains in the log file.
     \end{itemize}
 
     \subsubsection{Create Publication}
@@ -192,9 +192,9 @@
     
     \textbf{Pre-conditions}
      \begin{itemize}
-        \item The user(may be the administrator or HOD) should be logged into the system
-        \item The user, if not the administrator or HOD, must be a contributor to the paper
-        \item All authors who contributed to the paper should be available on the system
+        \item The user(may be the administrator or HOD) should be logged into the system.
+        \item The user, if not the administrator or HOD, must be a contributor to the paper.
+        \item All authors who contributed to the paper should be available on the system.
    \end{itemize}
     
     \textbf{Post-conditions}
@@ -210,9 +210,9 @@
     
     \textbf{Pre-conditions}
      \begin{itemize}
-        \item The user(may be the administrator or HOD) should be logged into the system
-        \item The user, if not the administrator or HOD, must be a contributor to the paper
-        \item The paper must already be in the system
+        \item The user(may be the administrator or HOD) should be logged into the system.
+        \item The user, if not the administrator or HOD, must be a contributor to the paper.
+        \item The paper must already be in the system.
    \end{itemize}
     
     \textbf{Post-conditions}
@@ -228,9 +228,9 @@
     
     \textbf{Pre-conditions}
      \begin{itemize}
-        \item The user(may be the administrator or HOD) should be logged into the system
-        \item The user - if not the administrator, HOD or research leader - must be a contributor to the paper
-        \item The paper must already be in the system
+        \item The user(may be the administrator or HOD) should be logged into the system.
+        \item The user - if not the administrator, HOD or research leader - must be a contributor to the paper.
+        \item The paper must already be in the system.
    \end{itemize}
     
     \textbf{Post-conditions}
@@ -248,13 +248,13 @@
         
     \textbf{Pre-conditions}
      \begin{itemize}
-        \item The user(must be the administrator or HOD) should be logged into the system
-        \item The publication type to add must not already be in the system
+        \item The user(must be the administrator or HOD) should be logged into the system.
+        \item The publication type to add must not already be in the system.
    \end{itemize}
     
     \textbf{Post-conditions}
     \begin{itemize}
-        \item The new publication type is added to the system
+        \item The new publication type is added to the system.
     \end{itemize}
     
     \subsubsection{Update Publication Type}
@@ -265,31 +265,31 @@
     
     \textbf{Pre-conditions}
      \begin{itemize}
-        \item The user(must be the administrator or HOD) should be logged into the system
-        \item The user - if not the administrator, HOD or research leader - must be a contributor to the paper
-        \item The publication type to be updated must already be in the system
+        \item The user(must be the administrator or HOD) should be logged into the system.
+        \item The user - if not the administrator, HOD or research leader - must be a contributor to the paper.
+        \item The publication type to be updated must already be in the system.
    \end{itemize}
     
     \textbf{Post-conditions}
     \begin{itemize}
-        \item The selected publication type will be updated with the new information
+        \item The selected publication type will be updated with the new information.
     \end{itemize}
     
     \subsubsection{Add Reminder}
-        \textbf{Description:} Allows the user to create a reminder for the deadline of the publication\\
-        \textbf{Prioritisation:} Nice-To-Have
+        \textbf{Description:} Allows the user to create a reminder for the deadline of the publication.\\
+        \textbf{Prioritisation:} Nice-To-Have.
         \\
         
         \textbf{Pre-conditions}
         \begin{itemize}
-        	\item The user(can be the HOD) should be logged into the system
-        	\item The user must be a contributor to the paper
-        	\item The publication must already be in the system
+        	\item The user(can be the HOD) should be logged into the system.
+        	\item The user must be a contributor to the paper.
+        	\item The publication must already be in the system.
         \end{itemize}
         
         \textbf{Post-conditions}
         \begin{itemize}
-        	\item A reminder via Mail or Calendar will be set with the selected publication and deadline
+        	\item A reminder via Mail or Calendar will be set with the selected publication and deadline.
         \end{itemize}
     
 	\subsubsection{Create Research Group}
@@ -298,15 +298,15 @@
 	
 	\textbf{Pre-conditions}
 	 \begin{itemize}
-		\item The user(must be the administrator or HOD) should be logged into the system
-		\item The Research Group you wish to create must not already be in the system
+		\item The user(must be the administrator or HOD) should be logged into the system.
+		\item The Research Group you wish to create must not already be in the system.
 	\end{itemize}
 	
 	\textbf{Post-conditions}
 	 \begin{itemize}
-		\item The Research Group will be created and stored in the database
-		\item Users will be able to join the Research Group
-		\item Research Leader will be able to see all Publications made by the Research Group's members
+		\item The Research Group will be created and stored in the database.
+		\item Users will be able to join the Research Group.
+		\item Research Leader will be able to see all Publications made by the Research Group's members.
 	\end{itemize}
 	
 	\subsubsection{View Research Group}
@@ -315,13 +315,13 @@
 	
 	\textbf{Pre-conditions}
 	 \begin{itemize}
-		\item The user(must be the administrator or HOD) should be logged into the system
-		\item The Research Group must already exist in the database
+		\item The user(must be the administrator or HOD) should be logged into the system.
+		\item The Research Group must already exist in the database.
     \end{itemize}
 	
 	\textbf{Post-conditions}
 	 \begin{itemize}
-		\item The user will be able to view the details of the Research Group
+		\item The user will be able to view the details of the Research Group.
 	\end{itemize}
 	
 	\subsubsection{Update Research Group}
@@ -330,13 +330,13 @@
 	
 	\textbf{Pre-conditions}
 	 \begin{itemize}
-		\item The user(must be the administrator or HOD) should be logged into the system
-		\item The Research Group must already exist in the database
+		\item The user(must be the administrator or HOD) should be logged into the system.
+		\item The Research Group must already exist in the database.
 	\end{itemize}
 	
 	\textbf{Post-conditions}
 	 \begin{itemize}
-		\item The user will be able to edit and save the new information entered
+		\item The user will be able to edit and save the new information entered.
 	\end{itemize}
 	
 	\subsubsection{Remove Research Group}
@@ -345,14 +345,14 @@
 	
 	\textbf{Pre-conditions}
 	 \begin{itemize}
-		\item The user(must be the administrator or HOD) should be logged into the system
-		\item The Research Group must already exist in the database
-		\item The Research Group must have no members in it and no Research Leader
+		\item The user(must be the administrator or HOD) should be logged into the system.
+		\item The Research Group must already exist in the database.
+		\item The Research Group must have no members in it and no Research Leader.
 	\end{itemize}
 	
 	\textbf{Post-conditions}
 	 \begin{itemize}
-		\item The user will be able to remove the Research Group from the database
+		\item The user will be able to remove the Research Group from the database.
 	\end{itemize}
 	
 	\subsubsection{Create Author}
@@ -361,13 +361,13 @@
 	
 	\textbf{Pre-conditions}
 	 \begin{itemize}
-		\item The user should be logged into the system
-		\item The Author must not already exist in the database
+		\item The user should be logged into the system.
+		\item The Author must not already exist in the database.
 	\end{itemize}
 	
 	\textbf{Post-conditions}
 	 \begin{itemize}
-		\item The user will be able to create a new Author and save him/her in the database
+		\item The user will be able to create a new Author and save him/her in the database.
 	\end{itemize}
 	
 	\subsubsection{Update Author}
@@ -376,13 +376,13 @@
 	
 	\textbf{Pre-conditions}
 	 \begin{itemize}
-		\item The user should be logged into the system
-		\item The Author must already exist in the database
+		\item The user should be logged into the system.
+		\item The Author must already exist in the database.
 	\end{itemize}
 	
 	\textbf{Post-conditions}
 	 \begin{itemize}
-		\item The user will be able to edit and save the new information entered
+		\item The user will be able to edit and save the new information entered.
 	\end{itemize}
     
     \pagebreak
@@ -393,39 +393,39 @@
 	\paragraph{\textbf{Description:} The type of user indicates what privileges that user has in the Research system}
 	\paragraph{\textbf{Normal-user}}
 	\begin{description}
-		\item[$\bullet$] A normal user login to the system if registered on the system
-		\item[$\bullet$] A normal user may add publications to the system
-		\item[$\bullet$] A normal user is as an author to a publication that they add
-		\item[$\bullet$] A normal user may add authors to a publication
-		\item[$\bullet$] A normal user may change authors in a publication
-		\item[$\bullet$] A normal user may add a publication to a conference
-		\item[$\bullet$] A normal user may only view their own publications
+		\item[$\bullet$] A normal user login to the system if registered on the system.
+		\item[$\bullet$] A normal user may add publications to the system.
+		\item[$\bullet$] A normal user is as an author to a publication that they add.
+		\item[$\bullet$] A normal user may add authors to a publication.
+		\item[$\bullet$] A normal user may change authors in a publication.
+		\item[$\bullet$] A normal user may add a publication to a conference.
+		\item[$\bullet$] A normal user may only view their own publications.
 	\end{description}
 	\paragraph{\textbf{Head of Department}}
 	\begin{description}
-		\item[$\bullet$] The head of department may log in to the system
-		\item[$\bullet$] The head of department may add users to the system
-		\item[$\bullet$] The head of department may remove users from the system
-		\item[$\bullet$] The head of department may edit user information on the system
-		\item[$\bullet$] The head of department may add publication to the system
-		\item[$\bullet$] The head of department may be an author to a publication
-		\item[$\bullet$] The head of department may add authors to a publication
-		\item[$\bullet$] The head of department may change authors in a publication
-		\item[$\bullet$] The head of department may add/remove publications to conferences
-		\item[$\bullet$] The head of department may view all publications on the system
+		\item[$\bullet$] The head of department may log in to the system.
+		\item[$\bullet$] The head of department may add users to the system.
+		\item[$\bullet$] The head of department may remove users from the system.
+		\item[$\bullet$] The head of department may edit user information on the system.
+		\item[$\bullet$] The head of department may add publication to the system.
+		\item[$\bullet$] The head of department may be an author to a publication.
+		\item[$\bullet$] The head of department may add authors to a publication.
+		\item[$\bullet$] The head of department may change authors in a publication.
+		\item[$\bullet$] The head of department may add/remove publications to conferences.
+		\item[$\bullet$] The head of department may view all publications on the system.
 	\end{description}
 	\paragraph{\textbf{Admin}}
 	\begin{description}
-		\item[$\bullet$] Admin users may log in to the system
-		\item[$\bullet$] Admin users may add users to the system
-		\item[$\bullet$] Admin users may remove users from the system
-		\item[$\bullet$] Admin users may edit user information on the system
-		\item[$\bullet$] Admin users may add publications to the system
-		\item[$\bullet$] Admin users may not be an author to any publication on the system
-		\item[$\bullet$] Admin users may add authors to a publication
-		\item[$\bullet$] Admin users may change authors to a publication
-		\item[$\bullet$] Admin users may add/remove publications to conferences
-		\item[$\bullet$] Admin users may view all publications on the system
+		\item[$\bullet$] Admin users may log in to the system.
+		\item[$\bullet$] Admin users may add users to the system.
+		\item[$\bullet$] Admin users may remove users from the system.
+		\item[$\bullet$] Admin users may edit user information on the system.
+		\item[$\bullet$] Admin users may add publications to the system.
+		\item[$\bullet$] Admin users may not be an author to any publication on the system.
+		\item[$\bullet$] Admin users may add authors to a publication.
+		\item[$\bullet$] Admin users may change authors to a publication.
+		\item[$\bullet$] Admin users may add/remove publications to conferences.
+		\item[$\bullet$] Admin users may view all publications on the system.
 	\end{description}
 	\begin{figure}[H]
 		\includegraphics[width=\textwidth]{Overview.jpg}
