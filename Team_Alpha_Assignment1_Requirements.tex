@@ -37,19 +37,19 @@
 	
 	This document defines the Software Requirements Specification and Technology Neutral Process Design for COS 301 Team Alpha. The Computer Science Department has expressed a need for the creation of a system, which can allow researchers to keep track of publications which they are currently working on, or have already published.
 	\\
-	The aim of this project is to follow a structured software development process in order to produce a product which provides the client with all the required functionality in an elegantly built product. A collaborative and co-operative approach is required between all stakeholders who are involved in this project. 
+	The aim of this project is to follow a structured software development process in order to produce a product which provides the client with all the required functionality in an elegantly designed and built product. A collaborative and co-operative approach is required between all stakeholders who are involved in this project. 
 	\\
 	The information, specifications, and diagrams within this document are presented in order to provide testable requirements which correlate to the client's needs.
 	
 	\section{Vision}
-	The client for this project, Ms. Vreda Pieterse, is a member of the Department of Computer Science at the University of Pretoria, has solicited us to develop a system. The purpose of this system is to record and oversee all publications of staff members or research groups, within the Department of Computer Science. The system will assist the Head of Department to track and advise staff members' progress on any papers which are in the process of being written; as well as determining whether or not a staff member is under performing.
+	The client for this project, Ms. Vreda Pieterse who is a member of the Department of Computer Science at the University of Pretoria, has solicited us to develop a system. The purpose of this system is to record and oversee all publications of staff members or research groups, within the Department of Computer Science. The system will assist the Head of Department to track the progress on any papers which are in the process of being written; as well as determining whether or not a staff member is under performing thus allowing the Head of Department the opportunity to provide advice to these staff members.
 	
 	\section{Background}
 	\subsection{The client's problem}
-	The client has solicited us to develop a system that has specific usability goals, as well as certain user-experience goals. Currently, the Department of Computer Science does not have a system with which to monitor the progress of staff member's publications, nor to keep track of how many publications an author is working on. Furthermore, it is necessary to determine which publications will be presented at different conferences, as well as the reporting capabilities, and the ability to remind users of deadlines. The system should allow for all these requirements in a secure, flexible and intuitive manner.
+	The client has solicited us to develop a system that has specific usability goals, as well as certain user-experience goals. Currently, the Department of Computer Science does not have a system with which to monitor the progress of staff member's publications, nor to keep track of how many publications an author is working on. Furthermore, it is necessary to determine which publications will be presented at different conferences, as well as the reporting capabilities, and the ability to remind users of deadlines. The system should provide all these requirements in a secure, flexible and intuitive manner.
 	
-	\subsection{Future business opportunities}
-	A additional for this system is to encourage authors to collaborate with other authors on similar topics and to expand the users base knowledge of ongoing research projects.
+	\subsection{Future business/research opportunities}
+	It is desired that this system will encourage authors to collaborate with other authors on similar topics and to expand the users base knowledge of ongoing research projects.
 	\\
 	\\
 	\\
@@ -59,19 +59,19 @@
 	This section will be expanded on and developed further in the next phase of the project design and will be mentioned only briefly here.
 	\\
 	\subsection{Access Channel Requirements}
-	It is possible that there can be many concurrent users using the system so it is optimal that there be such interfaces such as a web application or website, as well as a mobile platform applications for the various different mobile devices.
+	As it is possible that the system may have concurrent users, it is favourable that there be interfaces such as a web application or website, as well as a mobile platform applications for the various different mobile devices through which the system can be accessed.
 	\\
 	\subsection{Quality Requirements}
 	Specify and quantify each of the quality requirements which are relevant to the system
 	\begin{itemize}
 		\item Performance - How well the system can cope with extreme load.
-		\item Security - Minimising the possibility of leaking information, maintaining data integrity, and avoiding session hijack.
+		\item Security - Minimising the possibility of leaking information, maintaining data integrity, and avoiding session hijacking.
 		\item Maintainability - Can the system be managed without downtime.
-		\item Scalability - Can the system be used for large amount of users and still provide the services needed.
+		\item Scalability - Can the system be used for large amount of users without it affecting performance.
 		\item Efficiency - Can the system be optimized to produce faster and better results.
 		\item Flexibility - Can the system be easily changed or modified.
-		\item Reliability - Is the system able to cope with the load and provide constant access and is always active.
-		\item Integrability - Can it integrate with Google Calendar to send reminders.
+		\item Reliability - Is the system able to cope with the load in order to  provide constant access, ensure the system is always active and can provide all functionality.
+		\item Integrability - Will the system be able to integrate with other technologies.
 		\item User Friendly - Does a user easily understand how to use the system.
 		\item Concurrency - Can multiple users perform actions at the same time.
 		\item Low Cost, Reduced data usage - Is it suitable for users with low budget and capped Internet.
@@ -82,7 +82,7 @@
 	\subsection{Integration Requirements}
 	This section specifies any integration requirements for any external systems. This may include
 	\begin{itemize}
-		\item The different Web protocols used .
+		\item The different Web protocols used.
 		\item API - UML Interfaces.
 		\item Google Calender and Email integration.
 		\item Mobile Scalability and functionality Integration.
@@ -91,7 +91,7 @@
 	\end{itemize}
 	
 	\subsection{Architecture Constraints}
-	This specifies any constraints the client may specify on the system architecture include
+	This specifies any constraints, the client may require, to be placed on the system architecture. Such constraints may be:
 	\begin{itemize}
 		\item HTML (Hypertext Markup Language)
 		\item AJAX (Asynchronous JavaScript and XML)
@@ -108,7 +108,7 @@
 	\end{itemize}
 	\pagebreak
 	\section{Functional Requirements and Application Design}
-	This section discusses the application functionality required by users (and other stakeholders).
+	This section discusses the application functionality required by users.
 	\subsection{Use Case Prioritization}
 	\subsubsection{User Login}
 	\textbf{Description:}  A user is required to log into the system before the user can make use of any functionality.
@@ -385,7 +385,22 @@
 		\item The user will be able to edit and save the new information entered.
 	\end{itemize}
     
-    \pagebreak
+    \subsubsection{Generate Report}
+	\textbf{Description:} Allows the user generate a report based on certain data\\
+	\textbf{Prioritisation:} Nice to have\\
+	
+	\textbf{Pre-conditions}
+	 \begin{itemize}
+		\item The user should be logged into the system.
+		\item There should be existing data in the system's database
+ 	\end{itemize}
+	
+	\textbf{Post-conditions}
+	 \begin{itemize}
+		\item The system will generate a report based on certain criteria and make it visible to the user
+	\end{itemize}
+	
+    
 	\subsection{Use Case/Services Contracts}
 	
 	\subsection{Required Functionality}
@@ -393,9 +408,9 @@
 	\paragraph{\textbf{Description:} The type of user indicates what privileges that user has in the Research system}
 	\paragraph{\textbf{Normal-user}}
 	\begin{description}
-		\item[$\bullet$] A normal user login to the system if registered on the system.
+		\item[$\bullet$] A normal user may log in to the system if registered on the system.
 		\item[$\bullet$] A normal user may add publications to the system.
-		\item[$\bullet$] A normal user is as an author to a publication that they add.
+		\item[$\bullet$] A normal user must be an author of a publication should they want to add it to the system.
 		\item[$\bullet$] A normal user may add authors to a publication.
 		\item[$\bullet$] A normal user may change authors in a publication.
 		\item[$\bullet$] A normal user may add a publication to a conference.
@@ -404,14 +419,12 @@
 	\paragraph{\textbf{Head of Department}}
 	\begin{description}
 		\item[$\bullet$] The head of department may log in to the system.
-		\item[$\bullet$] The head of department may add users to the system.
-		\item[$\bullet$] The head of department may remove users from the system.
-		\item[$\bullet$] The head of department may edit user information on the system.
-		\item[$\bullet$] The head of department may add publication to the system.
-		\item[$\bullet$] The head of department may be an author to a publication.
+		\item[$\bullet$] The head of department may add/edit/remove a user.
+		\item[$\bullet$] The head of department may add/edit/remove an author.
+		\item[$\bullet$] The head of department may add publication/edit a publication.
+		\item[$\bullet$] The head of department may be an author on a publication.
 		\item[$\bullet$] The head of department may add authors to a publication.
-		\item[$\bullet$] The head of department may change authors in a publication.
-		\item[$\bullet$] The head of department may add/remove publications to conferences.
+		\item[$\bullet$] The head of department may add/remove publications for conferences.
 		\item[$\bullet$] The head of department may view all publications on the system.
 	\end{description}
 	\paragraph{\textbf{Admin}}
