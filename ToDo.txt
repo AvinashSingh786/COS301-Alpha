@@ -1,6 +1,5 @@
 Use Case/Services Contracts
-  - Diagram for 5.1.15
-  - Diagram for 5.1.16
   - Diagram for 5.1.17 (new use case added)
+  - Add diagrams to document
 Domain Model
 Open issues
