@@ -21,7 +21,7 @@
 
 \usepackage{graphicx}
 \usepackage{float}
-
+\usepackage{hyperref}
 \begin{document}
 	
 	\maketitle
@@ -129,6 +129,12 @@
         \item The user is able to use all the user functionality provided by the system 
         \item The user may log out of the system when they wish to.
     \end{itemize}
+    
+        	\begin{figure}[H]
+        		\centering
+        		\includegraphics[width=\textwidth]{5.1.1.Login.Services.Contract.png}
+        		\caption{Service Contract: User Login}
+        	\end{figure}
     
     \pagebreak
     
@@ -347,6 +353,13 @@
         \begin{itemize}
         	\item A reminder via Mail or Calendar will be set with the selected publication and deadline.
         \end{itemize}
+        
+            	\begin{figure}[H]
+            		\centering
+            		\includegraphics[width=\textwidth]{5.1.10.Add.Reminder.Services.Contract.png}
+            		\caption{Service Contract: Add Reminder}
+            	\end{figure}
+        
     \pagebreak
 	\subsubsection{Create Research Group}
 	\textbf{Description:} Allows the administrator or HOD to create a new Research Group\\
@@ -364,6 +377,13 @@
 		\item Users will be able to join the Research Group.
 		\item Research Leader will be able to see all Publications made by the Research Group's members.
 	\end{itemize}
+	
+	    	\begin{figure}[H]
+	    		\centering
+	    		\includegraphics[width=\textwidth]{5.1.11.Create.Research.Group.Services.Contract.png}
+	    		\caption{Service Contract: Create Research Group}
+	    	\end{figure}
+	
 	\pagebreak
 	\subsubsection{View Research Group}
 	\textbf{Description:} View the details of a Research Group \\
@@ -379,6 +399,13 @@
 	 \begin{itemize}
 		\item The user will be able to view the details of the Research Group.
 	\end{itemize}
+	
+	    	\begin{figure}[H]
+	    		\centering
+	    		\includegraphics[width=\textwidth]{5.1.12.View.Research.Group.Services.Contract.png}
+	    		\caption{Service Contract: View Research Group}
+	    	\end{figure}
+	
 	\pagebreak
 	\subsubsection{Update Research Group}
 	\textbf{Description:} Allows the administrator or HOD to update an existing Research Group\\
@@ -394,6 +421,13 @@
 	 \begin{itemize}
 		\item The user will be able to edit and save the new information entered.
 	\end{itemize}
+	
+	    	\begin{figure}[H]
+	    		\centering
+	    		\includegraphics[width=\textwidth]{5.1.13.Update.Research.Group.Services.Contract.png}
+	    		\caption{Service Contract: Update Research Group}
+	    	\end{figure}
+	
 	\pagebreak
 	\subsubsection{Remove Research Group}
 	\textbf{Description:} Allows the administrator or HOD to remove an existing Research Group\\
@@ -410,6 +444,13 @@
 	 \begin{itemize}
 		\item The user will be able to remove the Research Group from the database.
 	\end{itemize}
+	
+	    	\begin{figure}[H]
+	    		\centering
+	    		\includegraphics[width=\textwidth]{5.1.14.Remove.Research.Group.Services.Contract.png}
+	    		\caption{Service Contract: Remove Research Group}
+	    	\end{figure}
+	
 	\pagebreak
 	\subsubsection{Create Author}
 	\textbf{Description:} Allows the user to create a new Author\\
@@ -425,6 +466,13 @@
 	 \begin{itemize}
 		\item The user will be able to create a new Author and save him/her in the database.
 	\end{itemize}
+	
+	    	\begin{figure}[H]
+	    		\centering
+	    		\includegraphics[width=\textwidth]{5.1.15.Create.Author.Services.Contract.png}
+	    		\caption{Service Contract: Create Author}
+	    	\end{figure}
+	
 	\pagebreak
 	\subsubsection{Update Author}
 	\textbf{Description:} Allows the user to update an existing Author\\
@@ -440,6 +488,12 @@
 	 \begin{itemize}
 		\item The user will be able to edit and save the new information entered.
 	\end{itemize}
+	    	\begin{figure}[H]
+	    		\centering
+	    		\includegraphics[width=\textwidth]{5.1.16.Update.Author.Services.Contract.png}
+	    		\caption{Service Contract: Update Author}
+	    	\end{figure}
+	
     \pagebreak
     \subsubsection{Generate Report}
 	\textbf{Description:} Allows the user generate a report based on certain data\\
@@ -455,6 +509,11 @@
 	 \begin{itemize}
 		\item The system will generate a report based on certain criteria and make it visible to the user
 	\end{itemize}
+		    	\begin{figure}[H]
+		    		\centering
+		    		\includegraphics[width=\textwidth]{5.1.17.Generate.Report.Services.Contract.png}
+		    		\caption{Service Contract: Generate Report}
+		    	\end{figure}
 	
     \pagebreak
 	\subsection{Use Case/Services Contracts}
@@ -506,6 +565,7 @@
 		\includegraphics[width=\textwidth]{AccessHODAdmin.jpg}
 		\caption{Functional Requirements: Superuser(HOD and admin) access privileges \label{overflow}}
 	\end{figure}
+	\pagebreak
 		\subsection{Process Specification}
 	This section conatins UML activity diagrams that illustrate the sequences that will be followed for various use case scenarios.
 	\begin{figure}[H]
@@ -543,6 +603,7 @@
 		\includegraphics[width=\textwidth]{DomainModel.jpg}
 		\caption{Domain Model of Research System \label{overflow}}
 	\end{figure}
+	\pagebreak
 	\section{Open Issues}
 	This section deals with issues that still need to be clarified, specified, assumed or have been discovered to include inconsistencies in the requirements, comprising of the following issues:
 	\begin{description}

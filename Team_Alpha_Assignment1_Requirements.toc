@@ -1,39 +1,39 @@
-\contentsline {section}{\numberline {1}Introduction}{2}
-\contentsline {section}{\numberline {2}Vision}{2}
-\contentsline {section}{\numberline {3}Background}{2}
-\contentsline {subsection}{\numberline {3.1}The client's problem}{2}
-\contentsline {subsection}{\numberline {3.2}Future business/research opportunities}{2}
-\contentsline {section}{\numberline {4}Architecture Requirements}{3}
-\contentsline {subsection}{\numberline {4.1}Access Channel Requirements}{3}
-\contentsline {subsection}{\numberline {4.2}Quality Requirements}{3}
-\contentsline {subsection}{\numberline {4.3}Integration Requirements}{4}
-\contentsline {subsection}{\numberline {4.4}Architecture Constraints}{4}
-\contentsline {section}{\numberline {5}Functional Requirements and Application Design}{5}
-\contentsline {subsection}{\numberline {5.1}Use Case Prioritization}{5}
-\contentsline {subsubsection}{\numberline {5.1.1}User Login}{5}
-\contentsline {subsubsection}{\numberline {5.1.2}User Registration}{6}
-\contentsline {subsubsection}{\numberline {5.1.3}Update User}{7}
-\contentsline {subsubsection}{\numberline {5.1.4}Remove User}{8}
-\contentsline {subsubsection}{\numberline {5.1.5}Create Publication}{9}
-\contentsline {subsubsection}{\numberline {5.1.6}Update Publication}{10}
-\contentsline {subsubsection}{\numberline {5.1.7}View Publication}{11}
-\contentsline {subsubsection}{\numberline {5.1.8}Add Publication Type}{12}
-\contentsline {subsubsection}{\numberline {5.1.9}Update Publication Type}{13}
-\contentsline {subsubsection}{\numberline {5.1.10}Add Reminder}{14}
-\contentsline {subsubsection}{\numberline {5.1.11}Create Research Group}{15}
-\contentsline {subsubsection}{\numberline {5.1.12}View Research Group}{16}
-\contentsline {subsubsection}{\numberline {5.1.13}Update Research Group}{17}
-\contentsline {subsubsection}{\numberline {5.1.14}Remove Research Group}{18}
-\contentsline {subsubsection}{\numberline {5.1.15}Create Author}{19}
-\contentsline {subsubsection}{\numberline {5.1.16}Update Author}{20}
-\contentsline {subsubsection}{\numberline {5.1.17}Generate Report}{21}
-\contentsline {subsection}{\numberline {5.2}Use Case/Services Contracts}{22}
-\contentsline {subsection}{\numberline {5.3}Required Functionality}{22}
-\contentsline {subsubsection}{\numberline {5.3.1}User-Research System interaction}{22}
-\contentsline {paragraph}{\textbf {Description:} The type of user indicates what privileges that user has in the Research system}{22}
-\contentsline {paragraph}{\textbf {Normal-user}}{22}
-\contentsline {paragraph}{\textbf {Head of Department}}{22}
-\contentsline {paragraph}{\textbf {Admin}}{22}
-\contentsline {subsection}{\numberline {5.4}Process Specification}{24}
-\contentsline {subsection}{\numberline {5.5}Domain Model}{29}
-\contentsline {section}{\numberline {6}Open Issues}{29}
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {2}Vision}{2}{section.2}
+\contentsline {section}{\numberline {3}Background}{2}{section.3}
+\contentsline {subsection}{\numberline {3.1}The client's problem}{2}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Future business/research opportunities}{2}{subsection.3.2}
+\contentsline {section}{\numberline {4}Architecture Requirements}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}Access Channel Requirements}{3}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Quality Requirements}{3}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Integration Requirements}{4}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Architecture Constraints}{4}{subsection.4.4}
+\contentsline {section}{\numberline {5}Functional Requirements and Application Design}{5}{section.5}
+\contentsline {subsection}{\numberline {5.1}Use Case Prioritization}{5}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}User Login}{5}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}User Registration}{6}{subsubsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.3}Update User}{7}{subsubsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.4}Remove User}{8}{subsubsection.5.1.4}
+\contentsline {subsubsection}{\numberline {5.1.5}Create Publication}{9}{subsubsection.5.1.5}
+\contentsline {subsubsection}{\numberline {5.1.6}Update Publication}{10}{subsubsection.5.1.6}
+\contentsline {subsubsection}{\numberline {5.1.7}View Publication}{11}{subsubsection.5.1.7}
+\contentsline {subsubsection}{\numberline {5.1.8}Add Publication Type}{12}{subsubsection.5.1.8}
+\contentsline {subsubsection}{\numberline {5.1.9}Update Publication Type}{13}{subsubsection.5.1.9}
+\contentsline {subsubsection}{\numberline {5.1.10}Add Reminder}{14}{subsubsection.5.1.10}
+\contentsline {subsubsection}{\numberline {5.1.11}Create Research Group}{15}{subsubsection.5.1.11}
+\contentsline {subsubsection}{\numberline {5.1.12}View Research Group}{16}{subsubsection.5.1.12}
+\contentsline {subsubsection}{\numberline {5.1.13}Update Research Group}{17}{subsubsection.5.1.13}
+\contentsline {subsubsection}{\numberline {5.1.14}Remove Research Group}{18}{subsubsection.5.1.14}
+\contentsline {subsubsection}{\numberline {5.1.15}Create Author}{19}{subsubsection.5.1.15}
+\contentsline {subsubsection}{\numberline {5.1.16}Update Author}{20}{subsubsection.5.1.16}
+\contentsline {subsubsection}{\numberline {5.1.17}Generate Report}{21}{subsubsection.5.1.17}
+\contentsline {subsection}{\numberline {5.2}Use Case/Services Contracts}{22}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Required Functionality}{22}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}User-Research System interaction}{22}{subsubsection.5.3.1}
+\contentsline {paragraph}{\textbf {Description:} The type of user indicates what privileges that user has in the Research system}{22}{section*.2}
+\contentsline {paragraph}{\textbf {Normal-user}}{22}{section*.3}
+\contentsline {paragraph}{\textbf {Head of Department}}{22}{section*.4}
+\contentsline {paragraph}{\textbf {Admin}}{22}{section*.5}
+\contentsline {subsection}{\numberline {5.4}Process Specification}{25}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Domain Model}{30}{subsection.5.5}
+\contentsline {section}{\numberline {6}Open Issues}{31}{section.6}

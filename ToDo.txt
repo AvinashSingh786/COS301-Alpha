@@ -1,5 +1,3 @@
-Use Case/Services Contracts
-  - Diagram for 5.1.17 (new use case added)
-  - Add diagrams to document
-Domain Model
-Open issues
+Everything Done
+Just need to proof read and check diagrams again for perfection ;-)
+
