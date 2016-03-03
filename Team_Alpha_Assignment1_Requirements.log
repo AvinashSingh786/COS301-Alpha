@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.17)  3 MAR 2016 15:06
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2016.2.17)  3 MAR 2016 15:18
 entering extended mode
 **Team_Alpha_Assignment1_Requirements.tex
 (Team_Alpha_Assignment1_Requirements.tex
@@ -222,48 +222,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 285--288
 
  []
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 303--305
+File: 5.1.8.Add.Publication.Type.Services.Contract.png Graphic file (type QTm)
+<use  "5.1.8.Add.Publication.Type.Services.Contract.png" > [12]
+Underfull \hbox (badness 10000) in paragraph at lines 311--313
 
  []
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 320--323
+File: 5.1.9.Update.Publication.Type.Services.Contract.png Graphic file (type QT
+m)
+<use  "5.1.9.Update.Publication.Type.Services.Contract.png" > [13]
+Underfull \hbox (badness 10000) in paragraph at lines 335--338
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 337--339
+Underfull \hbox (badness 10000) in paragraph at lines 352--354
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 354--356
-
- []
-
-[16]
 Underfull \hbox (badness 10000) in paragraph at lines 369--371
 
  []
 
-[17]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 384--386
 
  []
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 400--402
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
 
  []
 
-[19]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 415--417
 
  []
 
-[20]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 430--432
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 445--447
 
  []
 
@@ -298,10 +301,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 715 strings out of 428790
- 9028 string characters out of 3164815
+ 721 strings out of 428790
+ 9341 string characters out of 3164815
  63927 words of memory out of 3000000
- 4048 multiletter control sequences out of 15000+200000
+ 4052 multiletter control sequences out of 15000+200000
  8541 words of font info for 30 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  25i,6n,19p,655b,234s stack positions out of 5000i,500n,10000p,200000b,50000s
