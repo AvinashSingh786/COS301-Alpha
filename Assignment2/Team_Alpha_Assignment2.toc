@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Software Architecture Documentation}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Architecture requirements}{2}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Architectural scope}{2}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Quality requirements}{2}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.3}Integration and access channel requirement}{2}{subsubsection.1.1.3}
+\contentsline {subsubsection}{\numberline {1.1.4}Architectural constraints}{2}{subsubsection.1.1.4}
+\contentsline {section}{\numberline {2}Architectural patterns or styles}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Architectural tactics or strategies}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Use of reference architectures and frameworks}{2}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Access and integration channels}{2}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Technologies}{3}{subsection.2.4}

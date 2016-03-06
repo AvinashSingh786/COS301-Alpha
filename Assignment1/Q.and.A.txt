@@ -1,0 +1,22 @@
+Hi Guys
+
+Here is just some clarifications on the project.
+
+Definitions:
+	1. Venue: The physical place where the Publication gets published
+	2. Type of Venue: This is the type of Publication, for example, is it a Conference Paper, a Journal or Technical Report?
+
+Questions that were asked and answers to them:
+	Q. Does a Publication always have to have a Conference where it is published?
+	A. Yes. It will alwayshave a Type of Venue, that is either a Conference Event Name, or a Journal Name or the Name of the Instition.
+	
+	Q. Do all users belong to a research group?
+	A. Yes, all users belong to at least one group.
+	
+	Q. What happens if a conference is cancelled?
+	A. Status of the Publication goes from accepted/in review/submitted to terminated and then another Publication with the same name and description can be opened if you want to submit it to another conference/journal
+	
+	Q. Server provided?
+	A. Vreda says that is an architechtural(?) concern, not something we need to be worried in the requirement phase.
+	
+If anyone has any questions about anything, please post them here and then we whoever gets a chance can ask the lecturers and post the answers
