@@ -40,8 +40,59 @@
 	\subsection{Architecture requirements}
 In this section extract the architectural requirements from the software requirements including
 
-	\subsubsection{Architectural scope}
+	\subsubsection{Architectural Scope}
+	    Architectural responsibilities that need to be addressed by the software architecture are as follows:
+	    \begin{itemize}
+    		\item Providing a persistence infrastructure - being a database stored on a dedicated server
+    		\item Providing a reporting infrastructure
+    		\item Providing an infrastructure for process execution
+    		\item Providing a backup infrastructure (e.g. making use of RAID)
+    		\item Providing a user interface through which the user can interact with the website/app
+    		\item Providing a means of Session management
+    		\item Providing a method of prevention against SQL injections
+    		\item Provide a log in system
+    		\item Provide a means with which to query the database in an interactive way
+    		\item Provide a means by which users can be notified about reminders
+    	\end{itemize}
 	\subsubsection{Quality requirements}
+	\begin{itemize}
+		 \begin{itemize}
+		\item Performance \\\\
+		    HPerformance of a system refers to the behaviour of the system in terms of repsonse time and throughput. Changes and modifications to the system should be done in the most cost and time effective manner to provide a good user experience.
+		    One method of ensuring the performance is visible to the user is to make use of feedback tools to ensure the user is aware that the system is performing as expected or to notify the users should something have gone wrong.  
+		\item Security \\\\
+		    Minimising the possibility of leaking information, maintaining data integrity, and avoiding session hijacking. This is very important as personal information will be stored in the database(e.g. email). The system will also have different user types with different access permissions hence security will be needed to ensure that a specific user only has the capabilities afforded to them. 
+		    \\\\
+		    We will achieve security by making use of 3 methods, namely: prevention, detection, and recovery.
+		    We will ensure that we have put means in place through which we may be able to detect any threats to the system for example validation any information that is required to be sent to the server. Preventing threats to the system can be enforced through limiting the access channels, making use of authentication, not allowing any external sources to be accessed through the system etc. Recovery will be achieved through cancelling requests, maintaining a working back up state.
+		\item Maintainability \\\\
+		    This refers to how well the system can be modified to accommodate new functionality, access channels, fix bugs and improve the performance of the system. As it is likely that multiple people will be working on the system the code has to be easy to read and understand. We will achieve this by commenting our code to allow for a quick study of the code. We will employ a means by which to allow pluggability of our code to ensure that large amounts of code will not be needed to be changed/removed.
+		    \\\\
+		    The system should not only be maintainable in terms of issues with the system but it should also be maintainable in terms of usability. i.e user permissions should be allowed to be changed etc.
+		    
+		\item Scalability \\\\
+		    Scalabilty refers to the system's ability to handle increased traffic or workload. This will be implemented by ensuring that users can make the same requests simultaneously.
+		    \\\\
+		    We will need to ensure that resources are managed wisely in order to avoid lost updates, uncommitted data and inconsistent retrievals.
+	
+		\item Reliability \\\\
+		    As the system is required to support a fairly large user base it should allow for effective and safe concurrent use of the system. The system should ensure that no users can perform tasks that their user type does not afford to them.
+		    \\\\
+		    As access channels are via a web browser/android app it is essential that these access channels always have access to the server and thus database and ensure that the connection is stable, reliable and safe at all times. The system should be maintained in order  to ensure that the system can perform all the required tasks in an effective and efficient manner. We will achieve this through thorough unit testing, making use of concurrent resource locks and eliminate single points of failure.
+		\item Auditability\\\\
+		    A requirement of the system is that all actions or changes to the should be logged to enable users with the appropriate permissions to be able to view all actions or changes to the system, who they were made by and when. This is essential in ensuring that the system can be rolled back to a stable state should something undesirable happen.
+		    \\\\
+		    We will implement this by have log file running at all times which makes use of timestamping to indicate when changes were made, the system should allow to rolled back to a stable state should it be deemed neccessary. ACID Properties will be applied to ensure that the database maintains and stable, reliable and current state.
+		    
+		    
+		\item Integrability \\\\
+		    Will the system be able to integrate with other technologies.
+		\item Usability \\\\
+		    Usability will be achieved through the implementation of an intuitive, easy to use, easy to understand and an aesthetically appealing interface through which the user will be able to perform all system functionality afforded to them through their user type.
+		    \\\\
+		    We will ensure that the user interface performs all tasks in the most efficient and direct means. The interface should not cause the user any irritation in the form of colour schemes, delayed functionality, over complication of tasks.
+	\end{itemize}
+	\\
 
 	\subsubsection{Integration and access channel requirement}
 		As it is possible that the system may have concurrent users, it is favourable that there be interfaces such as a web application or website, as well as a mobile platform applications for the various different mobile devices through which the system can be accessed.
@@ -60,20 +111,7 @@ In this section extract the architectural requirements from the software require
 	\subsection{Use of reference architectures and frameworks}
 	\subsection{Access and integration channels}
 	Specify and quantify each of the quality requirements which are relevant to the system
-	\begin{itemize}
-		\item Performance - How well the system can cope with extreme load.
-		\item Security - Minimising the possibility of leaking information, maintaining data integrity, and avoiding session hijacking.
-		\item Maintainability - Can the system be managed without downtime.
-		\item Scalability - Can the system be used for large amount of users without it affecting performance.
-		\item Efficiency - Can the system be optimized to produce faster and better results.
-		\item Flexibility - Can the system be easily changed or modified.
-		\item Reliability - Is the system able to cope with the load in order to  provide constant access, ensure the system is always active and can provide all functionality.
-		\item Integrability - Will the system be able to integrate with other technologies.
-		\item User Friendly - Does a user easily understand how to use the system.
-		\item Concurrency - Can multiple users perform actions at the same time.
-		\item Low Cost, Reduced data usage - Is it suitable for users with low budget and capped Internet.
-		\item Updatability - Can the system have version updates to introduce new features or functionality whilst maintaining old data.
-		\\
+	
 			\begin{itemize}
 				\item The different Web protocols used.
 				\item API - UML Interfaces.
