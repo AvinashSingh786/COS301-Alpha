@@ -187,7 +187,19 @@
 \section{Architectural patterns or styles}
 
 \section{Architectural tactics or strategies}
-
+In this section, we will discuss certain strategies that will be used to achieve the quality requirements stated in section 4.2 and were further expanded upon in section 5.1.2.
+\item Hashing and Salting Passwords \\\\
+To ensure that sensitive information of the users of the system is not leaked in the event of a database compromise, all passwords will not be stored in plain text. Instead, all passwords will be hashed with a strong one-way hashing algorithm, such as the sha256, so that in the event of a database compromise, it will be near impossible to compute the actual passwords from the hashes. To make the hashes more effective, we will add random data, known as salt, to the passwords before hashing them. This will make it extremely difficult for intruders to use pre-hashed tables to perform a look up to find a matching password.
+\\
+\item Prepared Statements \\\\
+To prevent the illegal extraction of data and/or the destruction of data from the database through SQL injection and blind SQL injection attacks, we will make use of prepared statements. Prepared statements also have other benefits other than security. Even though prepared statements execute a statement multiple time, they reduce parsing time as the preparation of the query is only done once. This will improve the efficiency and performance of the system. Also, because prepared statements bind values to parameters, the bandwidth on the server is minimized because you only need to send the parameters to the server and not the whole query. This also improves the performance of the system.
+\\
+\item Caching \\\\
+Because the system relies heavenly on databases, there will be a significant number of access attempts to the the databases. This has the potential of creating a bottleneck that gets worse as the number of concurrent users increases. This means that the system will scale poorly and the performance of the system will decrease drastically. The best way to combat this is to limit accesses to the databases were possible. To accomplish this, we will make use of a distributed cache system. A distributed cache will particularly be effective in read operations and will provide large performance gains as it reduces the processing times of applications and it limits database accesses. This will improve the scalability of the system drastically and thus will accommodate a large number of concurrent users. 
+\\
+\item Database Normalization \\\\
+To make the system flexible, we will create the database tables and link them to one another were it is appropriate to do so according to rules that protect the data and makes it flexible. This process is known as normalization. Normalization eliminates redundancies and inconsistent dependencies. This makes it simple to makes changes to the system and also makes it easy to add new components to the system.
+\\
 \section{Use of reference architectures and frameworks}
 \section{Access and integration channels}
  Specify and quantify each of the quality requirements which are relevant to the system
