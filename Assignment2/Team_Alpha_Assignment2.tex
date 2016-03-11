@@ -128,6 +128,41 @@
     
     
 \section{Architectural patterns or styles}
+	Architectural Patterns are generally reusable solutions to commonly occuring problems within a given context. Similar to software design patterns, architectural patterns are 
+	larger in scope though. The architectural patterns address various problems such as:
+		\begin{itemize}
+			\item Software Engineering
+			\item Computer Hardware limitations
+			\item High availablility
+			\item Minimization of Business Risk
+		\end{itemize}
+
+	For this project and the scope thereof, I suggest either one of two architectures are used or possibly both.
+	\subsection{Model-View-Controller}
+		Model-View-Controller, here on out referred to as MVC, is popular architecture used for implementing systems with user-interfaces. Later this architecture
+		became extremely popular for designing web applications and for this reason I suggest using this architecture. This architecture is easy to implement and 
+		to maintain. It is divided into three seperate departments:
+			\begin{itemize}
+				\item The Model is in charge of managing the data, logic and rules of the system.
+				\item The view is responsible for outputting the representation of the data that the user perceives.
+				\item The controller takes in input and converts it to commands for the model & view.
+			\end{itemize}
+		Current day MVC architecture has moved away from thin client coding due to technologies such as AngularJS, EmberJS, JavaScriptMVC and Backbone.
+		
+	\subsection{Service-orientated Architecture}
+		A service-oriented architecture (SOA) is an architectural pattern in computer software design in which application components provide services 
+		to other components via a communications protocol, typically over a network. The principles of service-orientation are independent of any vendor, 
+		product or technology.
+
+		A service is a self-contained unit of functionality, such as retrieving an online bank statement. By that definition, a service is an operation
+		that may be discretely invoked. However, in the Web Services Description Language (WSDL), a service is an interface definition that may list several
+		discrete services/operations. And elsewhere, the term service is used for a component that is encapsulated behind an interface. This widespread
+		ambiguity is reflected in what follows.
+
+		Services can be combined to provide the functionality of a large software application. SOA makes it easier for software components on computers
+		connected over a network to cooperate. Every computer can run any number of services, and each service is built in a way that ensures that the service
+		can exchange information with any other service in the network without human interaction and without the need to make changes to the underlying program
+		itself.
 
 \section{Architectural tactics or strategies}
 In this section, we will discuss certain strategies that will be used to achieve the quality requirements stated in section 4.2 and were further expanded upon in section 5.1.2.
