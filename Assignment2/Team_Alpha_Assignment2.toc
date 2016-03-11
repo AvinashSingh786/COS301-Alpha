@@ -1,11 +1,60 @@
-\contentsline {section}{\numberline {1}Software Architecture Documentation}{2}{section.1}
-\contentsline {subsection}{\numberline {1.1}Architecture requirements}{2}{subsection.1.1}
-\contentsline {subsubsection}{\numberline {1.1.1}Architectural scope}{2}{subsubsection.1.1.1}
-\contentsline {subsubsection}{\numberline {1.1.2}Quality requirements}{2}{subsubsection.1.1.2}
-\contentsline {subsubsection}{\numberline {1.1.3}Integration and access channel requirement}{2}{subsubsection.1.1.3}
-\contentsline {subsubsection}{\numberline {1.1.4}Architectural constraints}{2}{subsubsection.1.1.4}
-\contentsline {section}{\numberline {2}Architectural patterns or styles}{2}{section.2}
-\contentsline {subsection}{\numberline {2.1}Architectural tactics or strategies}{2}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Use of reference architectures and frameworks}{2}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Access and integration channels}{2}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Technologies}{3}{subsection.2.4}
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {2}Vision}{2}{section.2}
+\contentsline {section}{\numberline {3}Background}{2}{section.3}
+\contentsline {subsection}{\numberline {3.1}The client's problem}{2}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Future business/research opportunities}{2}{subsection.3.2}
+\contentsline {section}{\numberline {4}Software Architecture Documentation ...}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}Architecture requirements}{3}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Architectural Scope}{3}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Quality requirements}{3}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}Integration and access channel requirements}{5}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Architectural constraints ... }{5}{subsubsection.4.2.1}
+\contentsline {section}{\numberline {5}Architectural patterns or styles ...}{6}{section.5}
+\contentsline {section}{\numberline {6}Architectural tactics or strategies}{6}{section.6}
+\contentsline {section}{\numberline {7}Use of reference architectures and frameworks ...}{7}{section.7}
+\contentsline {section}{\numberline {8}Access and integration channels}{7}{section.8}
+\contentsline {subsubsection}{\numberline {8.0.2}Apache CouchDB Database System}{7}{subsubsection.8.0.2}
+\contentsline {paragraph}{Quality Requirements for the Database System}{7}{section*.2}
+\contentsline {subsubsection}{\numberline {8.0.3}Web services}{8}{subsubsection.8.0.3}
+\contentsline {paragraph}{Quality Requirements for the Web Services}{8}{section*.3}
+\contentsline {subsection}{\numberline {8.1}Access channels}{9}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Protocols}{9}{subsection.8.2}
+\contentsline {subsubsection}{\numberline {8.2.1}Database Query Language}{9}{subsubsection.8.2.1}
+\contentsline {subsubsection}{\numberline {8.2.2}HTTP - Hypertext Transfer Protocol}{9}{subsubsection.8.2.2}
+\contentsline {subsubsection}{\numberline {8.2.3}HTTP - Hypertext Transfer Protocol..}{9}{subsubsection.8.2.3}
+\contentsline {subsubsection}{\numberline {8.2.4}TCP - Transmission Control Protocol..}{9}{subsubsection.8.2.4}
+\contentsline {subsubsection}{\numberline {8.2.5}SMTP - Simple Mail Transfer Protocol..}{9}{subsubsection.8.2.5}
+\contentsline {subsection}{\numberline {8.3}API specifications}{9}{subsection.8.3}
+\contentsline {subsubsection}{\numberline {8.3.1}Apache Maven}{9}{subsubsection.8.3.1}
+\contentsline {subsubsection}{\numberline {8.3.2}REST -}{9}{subsubsection.8.3.2}
+\contentsline {subsubsection}{\numberline {8.3.3}GIT}{9}{subsubsection.8.3.3}
+\contentsline {section}{\numberline {9}Technologies}{10}{section.9}
+\contentsline {section}{\numberline {10}Functional Requirements and Application Design}{11}{section.10}
+\contentsline {subsection}{\numberline {10.1}Use Case Prioritization}{11}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Use Case/Services Contracts}{11}{subsection.10.2}
+\contentsline {subsubsection}{\numberline {10.2.1}User Login}{11}{subsubsection.10.2.1}
+\contentsline {subsubsection}{\numberline {10.2.2}User Registration}{12}{subsubsection.10.2.2}
+\contentsline {subsubsection}{\numberline {10.2.3}Update User}{13}{subsubsection.10.2.3}
+\contentsline {subsubsection}{\numberline {10.2.4}Remove User}{14}{subsubsection.10.2.4}
+\contentsline {subsubsection}{\numberline {10.2.5}Create Publication}{15}{subsubsection.10.2.5}
+\contentsline {subsubsection}{\numberline {10.2.6}Update Publication}{16}{subsubsection.10.2.6}
+\contentsline {subsubsection}{\numberline {10.2.7}View Publication}{17}{subsubsection.10.2.7}
+\contentsline {subsubsection}{\numberline {10.2.8}Add Publication Type}{18}{subsubsection.10.2.8}
+\contentsline {subsubsection}{\numberline {10.2.9}Update Publication Type}{19}{subsubsection.10.2.9}
+\contentsline {subsubsection}{\numberline {10.2.10}Add Reminder}{20}{subsubsection.10.2.10}
+\contentsline {subsubsection}{\numberline {10.2.11}Create Research Group}{21}{subsubsection.10.2.11}
+\contentsline {subsubsection}{\numberline {10.2.12}View Research Group}{22}{subsubsection.10.2.12}
+\contentsline {subsubsection}{\numberline {10.2.13}Update Research Group}{23}{subsubsection.10.2.13}
+\contentsline {subsubsection}{\numberline {10.2.14}Remove Research Group}{24}{subsubsection.10.2.14}
+\contentsline {subsubsection}{\numberline {10.2.15}Create Author}{25}{subsubsection.10.2.15}
+\contentsline {subsubsection}{\numberline {10.2.16}Update Author}{26}{subsubsection.10.2.16}
+\contentsline {subsubsection}{\numberline {10.2.17}Generate Report}{27}{subsubsection.10.2.17}
+\contentsline {subsection}{\numberline {10.3}Required Functionality}{28}{subsection.10.3}
+\contentsline {subsubsection}{\numberline {10.3.1}User-Research System interaction}{28}{subsubsection.10.3.1}
+\contentsline {paragraph}{\textbf {Description:} The type of user indicates what privileges that user has in the Research system}{28}{section*.4}
+\contentsline {paragraph}{\textbf {Normal-user}}{28}{section*.5}
+\contentsline {paragraph}{\textbf {Head of Department}}{28}{section*.6}
+\contentsline {paragraph}{\textbf {Admin}}{28}{section*.7}
+\contentsline {subsection}{\numberline {10.4}Process Specification}{30}{subsection.10.4}
+\contentsline {subsection}{\numberline {10.5}Domain Model}{30}{subsection.10.5}
+\contentsline {section}{\numberline {11}Open Issues}{31}{section.11}

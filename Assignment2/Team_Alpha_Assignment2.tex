@@ -12,16 +12,28 @@
 	Themba Mbhele 14007950
 	\\
 	\\
-	\\\textit{https://github.com/AvinashSingh786/COS301-Alpha.git}
+	\\\href{https://github.com/AvinashSingh786/COS301-Alpha.git}{GitHub}
+	\textit{https://github.com/AvinashSingh786/COS301-Alpha.git}
 	\\
 	\\
 	\\ University Of Pretoria\\}
 
 \date{March 2016}
 
-\usepackage{graphicx}
+%\usepackage{graphicx}
 \usepackage{float}
 \usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+
+
 \begin{document}
 	
 	\maketitle
@@ -55,12 +67,12 @@
 	\\
 	\\
 
-
-\section{Software Architecture Documentation}
+% START OF ASSIGNMENT 2
+\section{Software Architecture Documentation ...}
     
     This document defines 
     
-    \subsection{Architecture requirements}
+\subsection{Architecture requirements}
         In this section extract the architectural requirements from the software requirements, including:
 
     \subsubsection{Architectural Scope}
@@ -120,20 +132,19 @@
     The CS Research System will serve as the basis of the entire system, possibly integrating with future systems. Integration can be made possible through the use of a RESTful API to enable cross-platform concurrent communication through HTTP or HTTPS. By using a service-oriented architecture and thereby componentizing the system, other systems can more easily integrate through service calls to these different components. A web interface as well as a mobile application, specifically on Android, should be made available for the end users. Other platforms should then be able to communicate with the system through simple REST API calls. Additionally, services such as Google Calendar and Google Mail can also be integrated into the system through simple API calls made available by Google. 
 \\
     
-\subsubsection{Architectural constraints}
+\subsubsection{Architectural constraints ... }
+
    It is desired that this system will encourage authors to collaborate with other authors on similar topics and to expand the users base knowledge of ongoing research projects.
 \\
     \\
     \\
     
     
-\section{Architectural patterns or styles}
-
+\section{Architectural patterns or styles ...}
+	...\\
 \section{Architectural tactics or strategies}
 In this section, we will discuss certain strategies that will be used to achieve the quality requirements stated in section 4.2 and were further expanded upon in section 5.1.2.
 \begin{itemize}
-	
-	
 	\item Hashing and Salting Passwords \\\\
 	To ensure that sensitive information of the users of the system is not leaked in the event of a database compromise, all passwords will not be stored in plain text. Instead, all passwords will be hashed with a strong one-way hashing algorithm, such as the sha256, so that in the event of a database compromise, it will be near impossible to compute the actual passwords from the hashes. To make the hashes more effective, we will add random data, known as salt, to the passwords before hashing them. This will make it extremely difficult for intruders to use pre-hashed tables to perform a look up to find a matching password.
 	\\
@@ -147,21 +158,85 @@ In this section, we will discuss certain strategies that will be used to achieve
 	To make the system flexible, we will create the database tables and link them to one another were it is appropriate to do so according to rules that protect the data and makes it flexible. This process is known as normalization. Normalization eliminates redundancies and inconsistent dependencies. This makes it simple to makes changes to the system and also makes it easy to add new components to the system.
 	\\
 \end{itemize}
-\section{Use of reference architectures and frameworks}
+\section{Use of reference architectures and frameworks ...}
+	...\\ 
 \section{Access and integration channels}
- Specify and quantify each of the quality requirements which are relevant to the system
+%Avinash Singh
+	\subsubsection{Apache CouchDB Database System}
+	Apache CouchDB, the database commonly referred to CouchDB is a document-oriented NoSQL database that is open source. Integration with this system is required for retrieval of the majority of the information that the system will require. Performance for this channel is also crucial since we need fast and superior access speeds since the system mostly relies on querying with the database and thus this system has implemented MVCC - Multi Version Concurrency Control so it can process multiple queries with good response time. Furthermore this database makes use of JSON - JavaScript Object Notation, which transfers encrypted objects and is more dense and more faster than XML - Extensible Markup Language
 
-        \begin{itemize}
-            \item The different Web protocols used.
-            \item API - UML Interfaces.
-            \item Google Calender and Email integration.
-            \item Mobile Scalability and functionality Integration.
-            \item Venue and Publication integration.
-            \\
-        \end{itemize}
+	\paragraph{Quality Requirements for the Database System}
+	\begin{itemize}
+		\item{\textbf{Performance:} All queries to the CouchDB database should be rapid and efficient to provide the best user experience to the maximum amount of people. This is achieved through the MVCC since it can perform multiple queries at once as well as it makes use of JSON, which on its own is fast.}
+		\item{\textbf{Reliability:} It is important that the system needs to have as some downtime for upgrading and maintaining, thus a reliable connection to the Couchbase server is needed. }
+		\item{\textbf{Scalability:} The system needs to be able to work with a large amount of users concurrently. This is met with the MVCC and thus the Couchbase Server is the best suited.}
+		\item{\textbf{Integrability:} The integration with the CouchDB database should be engineered in a manner which can easily be adjusted to accommodate additional integrations. Since this is a Web based system and CouchDB is built for Web since it uses HTTP protocol and JavaScript querying.}
+		\item{\textbf{Affordability:} Access or queries made to the CouchDB database should be affordable, this is met since CouchDB is open source there is no physical money involved and requests made as often as needed are done without any implications, and does not affect the overall system performance.}
+		\item{\textbf{Flexibility:} The integration with the database should be flexible in the sense that slight changes in the database functionality should not affect the integration with the System. This is met since the database has a merging algorithm and manages conflicts on its own.}
+		\item{\textbf{Auditability:} Any modifications made, user interactions, queries should be announced. This can be done through Identification, time-stamps, digital receipts and this should be linked to the integration channels used. Every integration action must be traceable to a user or system action to provide debugging and easy maintenance.}
+	\end{itemize}
 
-    
 
+
+
+  \subsubsection{Web services}
+  Web services to be used namely HTTP, HTTPS and TCP, will facilitate user interaction with the system. and provide security to the system. 
+  \paragraph{Quality Requirements for the Web Services}
+  \begin{itemize}
+  	\item{\textbf{Security:} This is a very important requirement since in any web-based application needs to be secure if it involves sessions and logging into the system, it must incorporate user authentication and the storage of personal information as well as a digital certificate to make sure that the connection is secure.}
+  	\item{\textbf{Reliability:} For this it should be minimalist downtime, since there will be a lot of users and that need the services of the system so it should still have some interaction when down. }
+  	\item{\textbf{Integrability:} Web services need to be integrated with a host of other services like Google or any other future organizations that add more functionality and features to the system, typically notification system where the user can get notifications via different methods or services.}
+  	\item{\textbf{Performance:} This is a major priority to avoid lowering the overall system performance, since there are a vast range of web services available this must be achieved. However the use of a secured connection can tend to have some performance decrease since there is a lot more to process and is a bit slower than HTTP, but the increased security always is better over performace there us no use if the system is fast but has a security flaw.}
+  	\item{\textbf{Scalability:} The protocols utilized need to be able to cope with all the concurrent users connected to the system without breaking down or crashing down and perform optimally.}
+  \end{itemize}
+  
+  \subsection{Access channels}
+  The system has various access channels from which users can gain access to the system:
+  \begin{itemize}
+  	\item Computer - All users of the system should be able to access the system through the Internet/browser. Users will can use a modern web browser, such as Mozilla Firefox, Google Chrome, Microsoft Internet Explorer, or Apple Safari to interact with the system. All users will be required to login to the system to make use of the features available.
+  	\item Mobile - Users will also have access to system via an Android application, as well as the web application should have support for the mobile devices.
+  \end{itemize} 	
+  
+
+\subsection{Protocols}
+\subsubsection{Database Query Language}
+JavaScript will be used to query the CouchDB database by making of MapReduce.
+
+\subsubsection{HTTP - Hypertext Transfer Protocol}
+Integration with this protocol will occur at a high level and typically be handled by libraries or browser-clients etc.
+\textbf{Used for:	}
+\begin{itemize}
+	\item{Handling all the socket communications between the client and server, this entails all the data transfer.}
+	\item{Data transfer between the system and database.}
+	\item{Transfer of log data such as error codes to ensure both servers and clients are aware of the state of data transfers and its results}
+\end{itemize}
+
+
+\subsubsection{HTTP - Hypertext Transfer Protocol..}
+
+\textbf{Used for:	}
+\begin{itemize}
+	\item{Handling all the socket communications between the client and server, this entails all the data transfer.}
+
+\end{itemize}
+\subsubsection{TCP - Transmission Control Protocol..}
+
+\subsubsection{SMTP - Simple Mail Transfer Protocol..}
+
+
+\subsection{API specifications}
+\subsubsection{Apache Maven}
+
+\subsubsection{REST -}
+
+
+\subsubsection{GIT}
+GIT can be used as a version control API as it will allow an easy means to manage the versions and also solve code conflicts.
+
+
+
+
+%
 \section{Technologies}
     The following technologies will be used to develop the Research System:
     \begin{itemize}
@@ -181,8 +256,7 @@ In this section, we will discuss certain strategies that will be used to achieve
 
 
     
-% ==============================================================================================================================================================
-
+%END
 
 
 
