@@ -180,7 +180,7 @@ itself.
 
 
 \section{Architectural tactics or strategies}
-In this section, we will discuss certain strategies that will be used to achieve the quality requirements stated in section 4.2 and were further expanded upon in section 5.1.2.
+In this section, we will discuss certain strategies that will be used to achieve the quality requirements stated in section 4.1.2.
 \begin{itemize}
 	\item Hashing and Salting Passwords \\\\
 	To ensure that sensitive information of the users of the system is not leaked in the event of a database compromise, all passwords will not be stored in plain text. Instead, all passwords will be hashed with a strong one-way hashing algorithm, such as the sha256, so that in the event of a database compromise, it will be near impossible to compute the actual passwords from the hashes. To make the hashes more effective, we will add random data, known as salt, to the passwords before hashing them. This will make it extremely difficult for intruders to use pre-hashed tables to perform a look up to find a matching password.
