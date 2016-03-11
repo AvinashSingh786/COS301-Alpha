@@ -1014,14 +1014,20 @@ In this section, we will discuss certain strategies that will be used to achieve
 \end{itemize}
 \section{Use of reference architectures and frameworks}
 \section{Access and integration channels}
- Specify and quantify each of the quality requirements which are relevant to the system
+ The following is a tentative list of the access/integration channels planned for use in the final architecture. The word "tentative" is used as we cannot say with complete certainty what will be used before actual programming for the architecture has started to be written.
 
         \begin{itemize}
-            \item The different Web protocols used.
+            \item The Web protocols to be used: 
+            HTTP, HTTPS, FTP.
             \item API - UML Interfaces.
+            A proprietary object-relational mapper will be developed to manage the conversion of data-objects across different programming languages where necessary, this could be as simple as a java program that takes language A's object, converts it to a .txt file, then builds a language B object from it, or it could involve some third party object-relational mapper, whatever works.
             \item Google Calender and Email integration.
-            \item Mobile Scalability and functionality Integration.
+            Any event in the database that has a date/time must be sent to any person semantically involved with that event.
+            The relevant people will have the event automatically placed on their Google Calendar, and they will receive an automated email notifying them of the event once when the event is created, and once when the date of the event draws near. Various Google APIs/libraries will assist in acheiving this.
+            \item Web-and Mobile functionality Integration.
+            The application must be accesible from both a web portal and from an android app. The Android SDK will most likely be used to resolve all of the android usability goals.
             \item Venue and Publication integration.
+            The Google Calender and email integration will contain the necessary Venue and Publication information if applicable.
             \\
         \end{itemize}
 
