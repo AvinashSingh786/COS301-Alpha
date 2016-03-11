@@ -76,9 +76,9 @@
 		\item Flexibility - Can the system be easily changed or modified.
 		\item Reliability - Is the system able to cope with the load in order to  provide constant access, ensure the system is always active and can provide all functionality.
 		\item Integrability - Will the system be able to integrate with other technologies.
-		\item User Friendly - Does a user easily understand how to use the system.
+		\item User Friendliness - Does a user easily understand how to use the system.
 		\item Concurrency - Can multiple users perform actions at the same time.
-		\item Low Cost, Reduced data usage - Is it suitable for users with low budget and capped Internet.
+		\item Low Cost, Reduced data usage - Is it suitable for users with a low budget and limited Internet.
 		\item Updatability - Can the system have version updates to introduce new features or functionality whilst maintaining old data.
 		\\
 	\end{itemize}
@@ -93,7 +93,7 @@
 		\\
 	\end{itemize}
     \subsection{Architecture Constraints}
-	This specifies any constraints, the client may require, to be placed on the system architecture. Such constraints may be:
+	This specifies any constraints which the client may require, to be placed on the system architecture. Such constraints may be:
 	\begin{itemize}
 		\item HTML (Hypertext Markup Language)
 		\item AJAX (Asynchronous JavaScript and XML)
@@ -102,7 +102,7 @@
 		\item PHP (Server Side Scripting)
 		\item MySQL (Database Manager)
 		\item Android (Mobile Devices)
-		\item IOS (Mobile Devices)
+		\item iOS (Mobile Devices)
 		\item Apache (Web Server)
 		\item Linux/Windows (Operating System)
 		\\
@@ -118,12 +118,12 @@
     This document defines 
     
     \subsection{Architecture requirements}
-        In this section extract the architectural requirements from the software requirements including
+        In this section extract the architectural requirements from the software requirements, including:
 
     \subsubsection{Architectural Scope}
         Architectural responsibilities that need to be addressed by the software architecture are as follows:
         \begin{itemize}
-            \item Providing a persistence infrastructure - being a database stored on a dedicated server
+            \item Providing a persistent infrastructure - being a database stored on a dedicated server
             \item Providing a reporting infrastructure
             \item Providing an infrastructure for process execution
             \item Providing a backup infrastructure (e.g. making use of RAID)
@@ -138,13 +138,13 @@
     \begin{itemize}
      \begin{itemize}
     \item Performance \\\\
-        HPerformance of a system refers to the behaviour of the system in terms of repsonse time and throughput. Changes and modifications to the system should be done in the most cost and time effective manner to provide a good user experience.
+        The performance of a system refers to the behaviour of the system in terms of repsonse time and throughput. Changes and modifications to the system should be done in the most cost and time effective manner to provide a good user experience.
         One method of ensuring the performance is visible to the user is to make use of feedback tools to ensure the user is aware that the system is performing as expected or to notify the users should something have gone wrong.  
     \item Security \\\\
         Minimising the possibility of leaking information, maintaining data integrity, and avoiding session hijacking. This is very important as personal information will be stored in the database(e.g. email). The system will also have different user types with different access permissions hence security will be needed to ensure that a specific user only has the capabilities afforded to them. 
         \\\\
         We will achieve security by making use of 3 methods, namely: prevention, detection, and recovery.
-        We will ensure that we have put means in place through which we may be able to detect any threats to the system for example validation any information that is required to be sent to the server. Preventing threats to the system can be enforced through limiting the access channels, making use of authentication, not allowing any external sources to be accessed through the system etc. Recovery will be achieved through cancelling requests, maintaining a working back up state.
+        We will ensure that we have put means in place through which we may be able to detect any threats to the system, for example validating any information that is required to be sent to the server. Preventing threats to the system can be enforced through limiting the access channels, making use of authentication, not allowing any external sources to be accessed through the system, etc. Recovery will be achieved through cancelling requests and maintaining a working back up state to reroll changes.
     \item Maintainability \\\\
         This refers to how well the system can be modified to accommodate new functionality, access channels, fix bugs and improve the performance of the system. As it is likely that multiple people will be working on the system the code has to be easy to read and understand. We will achieve this by commenting our code to allow for a quick study of the code. We will employ a means by which to allow pluggability of our code to ensure that large amounts of code will not be needed to be changed/removed.
         \\\\
