@@ -148,7 +148,7 @@
     \item Maintainability \\\\
         This refers to how well the system can be modified to accommodate new functionality, access channels, fix bugs and improve the performance of the system. As it is likely that multiple people will be working on the system the code has to be easy to read and understand. We will achieve this by commenting our code to allow for a quick study of the code. We will employ a means by which to allow pluggability of our code to ensure that large amounts of code will not be needed to be changed/removed.
         \\\\
-        The system should not only be maintainable in terms of issues with the system but it should also be maintainable in terms of usability. i.e user permissions should be allowed to be changed etc.
+        The system should not only be maintainable in terms of issues with the system but it should also be maintainable in terms of usability, i.e user permissions should be allowed to be changed, etc.
         
     \item Scalability \\\\
         Scalabilty refers to the system's ability to handle increased traffic or workload. This will be implemented by ensuring that users can make the same requests simultaneously.
@@ -158,11 +158,11 @@
     \item Reliability \\\\
         As the system is required to support a fairly large user base it should allow for effective and safe concurrent use of the system. The system should ensure that no users can perform tasks that their user type does not afford to them.
         \\\\
-        As access channels are via a web browser/android app it is essential that these access channels always have access to the server and thus database and ensure that the connection is stable, reliable and safe at all times. The system should be maintained in order  to ensure that the system can perform all the required tasks in an effective and efficient manner. We will achieve this through thorough unit testing, making use of concurrent resource locks and eliminate single points of failure.
+        As access channels are via a web browser/android app it is essential that these access channels always have access to the server and thus database and ensure that the connection is stable, reliable and safe at all times. The system should be maintained in order to ensure that the system can perform all the required tasks in an effective and efficient manner. We will achieve this through unit testing, making use of concurrent resource locks and eliminating single points of failure.
     \item Auditability\\\\
         A requirement of the system is that all actions or changes to the should be logged to enable users with the appropriate permissions to be able to view all actions or changes to the system, who they were made by and when. This is essential in ensuring that the system can be rolled back to a stable state should something undesirable happen.
         \\\\
-        We will implement this by have log file running at all times which makes use of timestamping to indicate when changes were made, the system should allow to rolled back to a stable state should it be deemed neccessary. ACID Properties will be applied to ensure that the database maintains and stable, reliable and current state.
+        We will implement this by having a log file running at all times which makes use of timestamping to indicate when changes were made, the system should allow to be rolled back to a stable state should it be deemed neccessary. ACID Properties will be applied to ensure that the database maintains a stable, reliable and current state.
         
         
     \item Integrability \\\\
@@ -175,7 +175,7 @@
 \\
 
 \subsection{Integration and access channel requirements}
-    The CS Research System will serve as the basis of the entire system, possibly integrating with future systems. Integration can be made possible through the use of a RESTful API to enable cross-platform concurrent communication through HTTP or HTTPS. By using a service-oriented architecture and thereby componentizing the system, other systems can more easily integrate through service calls to these different components. A web interface as well as a mobile application should be made available for the end users. Other platforms should then be able to communicate with the system through simple REST API calls. Additionally, services such as Google Calendar and Google Mail can also be integrated into the system through simple API calls made available by Google. 
+    The CS Research System will serve as the basis of the entire system, possibly integrating with future systems. Integration can be made possible through the use of a RESTful API to enable cross-platform concurrent communication through HTTP or HTTPS. By using a service-oriented architecture and thereby componentizing the system, other systems can more easily integrate through service calls to these different components. A web interface as well as a mobile application, specifically on Android, should be made available for the end users. Other platforms should then be able to communicate with the system through simple REST API calls. Additionally, services such as Google Calendar and Google Mail can also be integrated into the system through simple API calls made available by Google. 
 \\
     
 \subsubsection{Architectural constraints}
